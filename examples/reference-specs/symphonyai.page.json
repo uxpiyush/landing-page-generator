@@ -1,0 +1,399 @@
+{
+  "company": "symphonyai",
+  "tier": "Heavy",
+  "brandColor": "#0074E8",
+  "source": "authored-in-agent",
+  "narrative": "SymphonyAI = enterprise agentic AI ('reliable, transparent decision infrastructure', 'better decisions faster') across divisions. Multi-division ad footprint: LinkedIn 169 (Retail/CPG agentic AI — grocery, forecasting, NRF, multi-language) + Google 26 (SymphonyAI Summit / ITSM — AI-powered IT service management). Meta none. Mirror: you give enterprises agentic AI to decide faster; who gives your growth team that on your own spend? Arc: hero → homework (two divisions) → mirror → capabilities → agentLoop → recommendations → comparison(table) → defensibility → integrations → pilot → booking. Light-first (dark: statement + pilot). Calendar embedded in booking.",
+  "sections": [
+    {
+      "type": "hero",
+      "bg": "plain",
+      "eyebrow": "Prepared for SymphonyAI's growth & performance team",
+      "headline": "Agents that run your paid engine and *make the next move*.",
+      "subhead": "Your ad footprint is as multi-divisional as your product — 169 LinkedIn creatives running Retail/CPG agentic AI across grocers, formats and four languages, and 26 Google ads capturing IT-service-management intent for Summit. Agents watch both surfaces daily, catch which division's spend actually becomes pipeline, and hand you the exact next move — with the reasoning behind it. You approve; they act.",
+      "ctaLabel": "Book a walkthrough",
+      "chips": [
+        "Connects in week one",
+        "Recommendations by week four",
+        "Grounded in verified analysis"
+      ],
+      "card": {
+        "app": "Northstar Agent",
+        "time": "6:14 AM",
+        "tag": "Campaign efficiency",
+        "title": "'Agentic AI for retail' spans grocers, formats and 4 languages — but lands everywhere the same",
+        "body": "Your top LinkedIn message runs across Save A Lot, Albertsons, pan-European assortment and APAC (NRF), in English, Spanish, German and French — yet every click lands on the same destination. The region and format that's converting can't be told apart from the one that isn't.",
+        "metrics": [
+          {
+            "v": "169",
+            "k": "LinkedIn creatives"
+          },
+          {
+            "v": "4",
+            "k": "Languages"
+          },
+          {
+            "v": "83",
+            "k": "Retail ads"
+          }
+        ],
+        "move": "Split the top-converting region/format (APAC grocery, EU assortment) onto its own page and measure pipeline separately; retire the flat variants.",
+        "impact": "See which retail play actually produces pipeline",
+        "actions": [
+          "Ask why",
+          "Approve & split"
+        ]
+      }
+    },
+    {
+      "type": "homework",
+      "bg": "white",
+      "icon": "binoculars",
+      "eyebrow": "We did our homework",
+      "heading": "We studied how SymphonyAI runs paid *before writing a word*.",
+      "body": "Pulled from your public Google and LinkedIn ad libraries, July 2026. Your paid footprint mirrors your org — two divisions running two very different plays on two channels. Here's what we saw — and where an agent layer earns its keep.",
+      "channels": [
+        {
+          "platform": "LinkedIn · Retail/CPG",
+          "stat": "169",
+          "label": "Agentic AI, global demand-gen",
+          "body": "'Agentic AI for retail,' grocery transformation (Save A Lot, Albertsons), forecasting and assortment ('10% sales growth, 95% forecast accuracy'), NRF events APAC & beyond — in English, Spanish, German and French. Image- and video-heavy: your brand and enterprise-demand engine."
+        },
+        {
+          "platform": "Google · Summit (ITSM)",
+          "stat": "26",
+          "label": "IT service-management intent capture",
+          "body": "A different division entirely — itsm.symphonyai.com: 'AI-Powered IT Service Mgmt,' 'ITSM Service Request,' service + asset management under one platform. Text-dominant, bottom-of-funnel category capture for Summit."
+        }
+      ],
+      "footer": "Two divisions, two channels, two audiences, 195 live creatives. The gap isn't the ads — it's that nobody reads which division's spend actually becomes pipeline, correlated across Retail LinkedIn and Summit Google and acted on daily. That's the layer Northstar Analytics owns."
+    },
+    {
+      "type": "statement",
+      "bg": "dark",
+      "icon": "brain",
+      "eyebrow": "The decision you can't see",
+      "heading": "You give enterprises agentic AI to make better decisions, faster. Who gives your growth team that on your own ad spend?",
+      "body": "SymphonyAI exists so a grocer, a bank or an IT team acts on a reliable, transparent recommendation instead of a hunch. But your own growth engine runs the way most do — Retail on LinkedIn, Summit on Google, pipeline in the CRM — and nobody joins them daily. Northstar Analytics is that agentic decision layer for your ad spend: reliable, transparent, and acted on every day."
+    },
+    {
+      "type": "capabilities",
+      "bg": "white",
+      "icon": "squares-four",
+      "eyebrow": "Capabilities → business impact",
+      "heading": "Built around what SymphonyAI’s growth team *already owns*.",
+      "sub": "Six capabilities, each tied to a number you're accountable for — pipeline by division, CAC, and which spend actually becomes revenue.",
+      "items": [
+        {
+          "icon": "funnel",
+          "title": "Missed-pipeline detection",
+          "body": "Flags enterprise accounts that engaged your Retail LinkedIn or Summit Google ads but never entered the CRM as an opportunity.",
+          "outcome": "Recovers enterprise accounts already engaged"
+        },
+        {
+          "icon": "path",
+          "title": "Golden-path lookalikes",
+          "body": "Matches in-flight accounts against the sequence behind your best closed deals — scored separately by division (Retail vs Summit vs Sensa).",
+          "outcome": "Scored by division — Retail, Summit, Sensa"
+        },
+        {
+          "icon": "buildings",
+          "title": "Division-level efficiency",
+          "body": "Ties all 195 creatives to pipeline by division and region — true cost-per-opportunity for Retail LinkedIn vs Summit ITSM, no blended average hiding a winner.",
+          "outcome": "True cost-per-opp, no blended average"
+        },
+        {
+          "icon": "translate",
+          "title": "Region & language read",
+          "body": "Separates APAC, EU and NA (and ES/DE/FR creatives) so a strong market isn't buried inside a global number.",
+          "outcome": "A strong market never buried in a global number"
+        },
+        {
+          "icon": "scissors",
+          "title": "Creative-fatigue & waste",
+          "body": "Catches the flat multi-language variants that keep spending but haven't produced an opportunity in 90 days.",
+          "outcome": "Cuts spend on variants with no opportunity in 90 days"
+        },
+        {
+          "icon": "arrows-clockwise",
+          "title": "Agentic dashboards",
+          "body": "Dashboards the agent rebuilds as your definitions change — by division, ICP, or the next product you spin up.",
+          "outcome": "Dashboards that rebuild as your definitions change"
+        }
+      ]
+    },
+    {
+      "type": "agentLoop",
+      "bg": "tint",
+      "icon": "target",
+      "eyebrow": "How the agents work",
+      "heading": "Point the agents at a goal. Agents run the rest.",
+      "body": "Set a goal in your own terms — cost-per-opportunity for Retail, pipeline for Summit by region — and the agent works out what to watch and what to do, on your numbers.",
+      "goals": [
+        {
+          "text": "Find which retail region and format actually convert — and move budget there.",
+          "result": "Agents measure each market and language on its own, and shift spend toward the plays that produce pipeline, not just engagement."
+        },
+        {
+          "text": "Give Summit its own read, not a blended one.",
+          "result": "Agents separate the ITSM Google program from Retail LinkedIn so each division sees its true cost-per-opportunity."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Monitor",
+          "body": "Track every LinkedIn and Google campaign and CRM event daily — by division — against your goal and your own baseline, not a canned benchmark."
+        },
+        {
+          "title": "Verify",
+          "body": "Every number is checked against source data before it reaches you — reliable, transparent analysis, not a guess."
+        },
+        {
+          "title": "Recommend",
+          "body": "When a sustained pattern bears on the goal, surface the move in Slack: evidence, cause, action, and what it's worth."
+        },
+        {
+          "title": "Act",
+          "body": "Approve and the agent acts — shifting budget, adding negatives, routing the account. Nothing fires until you say so."
+        },
+        {
+          "title": "Learn",
+          "body": "Every call you make is graded into memory, so next month's recommendation fits your motion better than this one."
+        }
+      ]
+    },
+    {
+      "type": "recommendations",
+      "bg": "white",
+      "icon": "lightning",
+      "eyebrow": "Two engines, running daily",
+      "heading": "Always know your next move.",
+      "body": "One engine watches paid-media efficiency; the other watches accounts against your golden path. Two live examples, built for SymphonyAI.",
+      "cards": [
+        {
+          "app": "Northstar Agent",
+          "time": "6:02 AM",
+          "tag": "Campaign budget",
+          "title": "APAC retail creatives convert to opportunity at 2.4× the EU set — but share the same flat budget",
+          "body": "Your NRF/APAC grocery ads pull enterprise retail accounts that reach opportunity far above the pan-European assortment set, yet the budget split across regions hasn't moved in 90 days and the flat multi-language variants keep spending.",
+          "metrics": [
+            {
+              "v": "2.4×",
+              "k": "Opp-rate lift"
+            },
+            {
+              "v": "169",
+              "k": "LinkedIn creatives"
+            },
+            {
+              "v": "4",
+              "k": "Languages"
+            }
+          ],
+          "move": "Shift 20% of the flat regional budget toward APAC grocery, give it an intent-matched page, and pause the multi-language variants with no opportunity in 90 days.",
+          "impact": "Lower cost-per-opportunity without adding spend",
+          "actions": [
+            "Ask why",
+            "Shift budget"
+          ]
+        },
+        {
+          "app": "Northstar Agent",
+          "time": "6:04 AM",
+          "tag": "Division routing",
+          "title": "14 enterprise accounts engaged both Retail LinkedIn and Summit Google — none routed to either team",
+          "body": "Over 14 days, 14 enterprise accounts engaged your Retail agentic-AI ads and your Summit ITSM ads, and reached pricing — but never entered the CRM for either division. Cross-division intent that both teams are blind to.",
+          "metrics": [
+            {
+              "v": "14",
+              "k": "Cross-division accts"
+            },
+            {
+              "v": "89%",
+              "k": "Golden-path match"
+            },
+            {
+              "v": "$420K",
+              "k": "Recoverable ARR"
+            }
+          ],
+          "move": "Route each account to the right division as a named list, and suppress from cold prospecting so spend targets the open motion.",
+          "impact": "Recoverable enterprise pipeline this quarter",
+          "actions": [
+            "Ask why",
+            "Route to sales"
+          ]
+        }
+      ],
+      "note": "Illustrative — calibrated to SymphonyAI's paid motion. On a pilot the numbers are your own, every one traceable to the record behind it."
+    },
+    {
+      "type": "comparison",
+      "bg": "tint",
+      "icon": "scales",
+      "eyebrow": "Why not just a dashboard",
+      "heading": "A dashboard reports. Northstar Analytics *decides — and acts*.",
+      "sub": "Six things a stack of dashboards can’t do across two divisions — that the agents do daily.",
+      "rows": [
+        {
+          "capability": "Retail LinkedIn + Summit Google in one view",
+          "dashboards": "Each division and channel reports its own slice",
+          "sender": "Both divisions stitched to CRM pipeline, watched daily"
+        },
+        {
+          "capability": "Cost per opportunity by division",
+          "dashboards": "A blended average hides which division wins",
+          "sender": "True cost-per-opp for Retail vs Summit — no blending"
+        },
+        {
+          "capability": "Region & language read",
+          "dashboards": "APAC, EU and NA buried in one global number",
+          "sender": "Each market and language measured on its own"
+        },
+        {
+          "capability": "The next move, not just a metric",
+          "dashboards": "Reports the number; you decide what to do",
+          "sender": "The action in Slack — evidence, cause, what it’s worth"
+        },
+        {
+          "capability": "Numbers you can put in front of the board",
+          "dashboards": "Reconciled by hand across 195 creatives",
+          "sender": "Every number verified on your definitions, with lineage"
+        },
+        {
+          "capability": "Acts on approval",
+          "dashboards": "Nothing acts — export and hand off",
+          "sender": "Approve and the agent shifts budget or routes the account"
+        }
+      ]
+    },
+    {
+      "type": "defensibility",
+      "bg": "white",
+      "icon": "shield-check",
+      "eyebrow": "Recommendations you can defend",
+      "heading": "You sell reliable, transparent decision infrastructure. So do we.",
+      "body": "SymphonyAI wins because leaders can trust and explain the recommendation. We hold ours to the same bar — every one shows its work, so you can put the number in front of your CRO or board without taking it on faith.",
+      "points": [
+        {
+          "icon": "tree-structure",
+          "title": "A methodology trail",
+          "body": "Every metric carries full lineage, raw data to summary, on your definitions — by division, region, your attribution windows. Safe for the board."
+        },
+        {
+          "icon": "chats-circle",
+          "title": "'Ask why,' any time",
+          "body": "Reply to any recommendation in Slack for the exact analysis, why it fired, and the leading indicator to watch. No black box."
+        },
+        {
+          "icon": "hand",
+          "title": "You approve every move",
+          "body": "Approve, hold, or ask why before anything acts. Tell an agent to wait or change course and it adapts the next run — no re-config."
+        }
+      ]
+    },
+    {
+      "type": "integrations",
+      "bg": "white",
+      "icon": "plugs-connected",
+      "eyebrow": "Connects natively to your stack",
+      "heading": "Your channels and CRM first. The rest when you need it.",
+      "body": "Northstar Analytics plugs into where SymphonyAI already runs — no data team required. Every metric stays traceable to the record behind it, and data handling is documented for your security review.",
+      "groups": [
+        {
+          "label": "Ad platforms",
+          "items": [
+            {
+              "name": "LinkedIn Ads",
+              "status": "live"
+            },
+            {
+              "name": "Google Ads",
+              "status": "live"
+            },
+            {
+              "name": "Meta Ads",
+              "status": "ready"
+            }
+          ]
+        },
+        {
+          "label": "CRM & marketing",
+          "items": [
+            {
+              "name": "Salesforce"
+            },
+            {
+              "name": "Marketo"
+            },
+            {
+              "name": "HubSpot"
+            },
+            {
+              "name": "GA4"
+            }
+          ]
+        },
+        {
+          "label": "Rest of the stack, via Fivetran",
+          "items": [
+            {
+              "name": "Bing Ads"
+            },
+            {
+              "name": "Reddit Ads"
+            },
+            {
+              "name": "6sense"
+            },
+            {
+              "name": "ZoomInfo"
+            },
+            {
+              "name": "+ 300 more sources"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "pilot",
+      "bg": "dark",
+      "icon": "rocket-launch",
+      "eyebrow": "The four-week pilot",
+      "heading": "Connected in week one. Recommending by week four.",
+      "body": "A structured pilot with a clear milestone each week. You see the depth before you commit — no card, no call to start.",
+      "steps": [
+        {
+          "when": "Week 1 · Connection",
+          "title": "Connect LinkedIn, Google & CRM",
+          "body": "Your ad platforms and CRM connect directly — no engineering ticket, no data team required."
+        },
+        {
+          "when": "Week 1–2 · Walkthrough",
+          "title": "Agent builds your golden path",
+          "body": "Once data syncs (~24h), we walk through the paid-media skill and your per-division opportunity definitions, live on your data."
+        },
+        {
+          "when": "Week 2 · Dashboards",
+          "title": "Spend & pipeline go live",
+          "body": "Self-serve dashboards: spend efficiency and cost-per-opportunity across all 195 creatives, by division and region."
+        },
+        {
+          "when": "Week 3–4 · Recommendations",
+          "title": "Agents monitor daily",
+          "body": "Goal-driven recommendations activate — learning your motion and sharpening every call."
+        }
+      ]
+    },
+    {
+      "type": "booking",
+      "bg": "white",
+      "icon": "calendar-check",
+      "eyebrow": "Book your walkthrough",
+      "heading": "See it on your data — *no card, no call*.",
+      "body": "Grab 30 minutes with the team. We’ll walk the paid-media agent on your real ad data and map the rollout — connect in week one, data syncs in about a day, dashboards in week two, agent recommendations by week four. No card, no pressure.",
+      "cal": "your-cal-username/intro"
+    }
+  ]
+}

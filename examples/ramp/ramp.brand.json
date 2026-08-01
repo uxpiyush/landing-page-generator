@@ -1,0 +1,61 @@
+{
+  "company": "ramp",
+  "domain": "ramp.com",
+  "fetchedAt": "2026-07-10T13:45:10.584Z",
+  "name": "Ramp",
+  "description": "Ramp is the finance automation platform uniquely designed to save businesses their most valuable resources—time and money.",
+  "longDescription": "Ramp is a brand that is revolutionizing finance operations for businesses of all sizes. By reimagining technology for back-office finance, Ramp provides essential tools to modernize finance operations and help businesses thrive. Their all-in-one solution combines corporate cards with best-in-class finance operations software, enabling customers to save money and free up their finance teams to do their best work. Founded in 2019, Ramp powers America's fastest-growing corporate card and bill payment platform. With over $600 million in customer savings and 8.5 million+ hours saved, Ramp has already made a significant impact. Their platform has received hundreds of 5-star reviews, with users raving about its innovative functionalities. Ramp is more than just a brand; it's a team of over 400 professionals with experience from leading financial services and fintech companies. They prioritize customer success, ensuring customers have a voice in every decision. Speed is crucial for Ramp, as they believe a simple solution that ships quickly is better than a perfect one that never gets released. Join Ramp to experience a whole new level of finance management and build a healthier business.",
+  "colors": {
+    "primary": "#1F1F1F",
+    "secondary": "#FFFFFF",
+    "accent": "#E4F222",
+    "suggestedBackground": "#ffffff",
+    "suggestedText": "#0b1220",
+    "all": [
+      {
+        "hex": "#1F1F1F",
+        "role": "primary",
+        "brightness": 31,
+        "sourceType": "dark"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "secondary",
+        "brightness": 255,
+        "sourceType": "light"
+      },
+      {
+        "hex": "#E4F222",
+        "role": "accent",
+        "brightness": 224,
+        "sourceType": "accent"
+      }
+    ]
+  },
+  "fonts": {
+    "title": "Lausanne",
+    "body": "Lausanne"
+  },
+  "logo": {
+    "localPath": "data/ramp.logo.svg",
+    "theme": "light",
+    "format": "svg",
+    "background": "transparent",
+    "sourceUrl": "https://cdn.brandfetch.io/idWQ_FWEk6/theme/light/logo.svg",
+    "darkThemeOnly": false
+  },
+  "icon": {
+    "localPath": "data/ramp.icon.jpeg",
+    "sourceUrl": "https://cdn.brandfetch.io/idWQ_FWEk6/w/400/h/400/theme/dark/icon.jpeg"
+  },
+  "companyMeta": {
+    "foundedYear": 2019,
+    "employees": 1001,
+    "location": "New York, New York, US",
+    "industries": [
+      "Finance",
+      "Finance"
+    ]
+  },
+  "qualityScore": 0.9988011535464422
+}

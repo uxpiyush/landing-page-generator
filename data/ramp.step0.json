@@ -1,0 +1,10 @@
+{
+  "company": "ramp",
+  "note": "Deeper research via SearchApi. Google: domain ramp.com → advertiser 'Ramp Business Corporation', 2,597 creatives (1,805 video / 432 text / 360 image), always-on since Jan 2022 (4.5 yrs); themes: 'Never chase a receipt again', 'Love closing the books on time', 'Smarter financial decisions', put automation where manual work lived, submit expenses 90% faster, no fees — a video-dominant brand + performance engine (YouTube/Demand Gen) plus category/expense search text ads. LinkedIn: advertiser 'Ramp' → 1,389 creatives (1,365 single_image / 20 text / 3 video), ALL with copy — the AI-native all-in-one finance platform: 'Cards, expenses, bill payments, and banking — in the blink of AI', 'Consolidate banking, cards & AP on Ramp', 'auto-code 75%+ of transactions', 'AI readiness score', deep VERTICAL ABM (Healthcare, Consulting, Franchisors, Retail, Nonprofit, Immigration), named-account personalization (%FIRSTNAME%/%COMPANYNAME%, competitor call-outs e.g. Sprinklr), yield/banking (2% / 4.17%, $0 wire fees), social proof (70,000 companies; Vanta, Notion, Figma, Shopify; growing 3.2x faster). Meta: keyword resolve inconclusive — best 'Ramp' page_id=103437121012366 carries only ~20 ads amid many namesakes (Kraken, Cole Gordon, Brawl Stars…); not a confirmed channel for the fintech. 3,986 creatives across 2 confirmed heavy channels.",
+  "resolvedAt": "2026-07-10", "source": "searchapi",
+  "platforms": {
+    "linkedin": { "count": 1389, "checked": true, "advertiser": "Ramp", "verified": true },
+    "meta": { "count": null, "checked": false, "reason": "keyword resolve inconclusive (best 'Ramp' page ~20 ads amid namesakes); not confirmed for the fintech" },
+    "google": { "count": 2597, "checked": true, "domain": "ramp.com", "advertiser": "Ramp Business Corporation", "verified": true }
+  }
+}

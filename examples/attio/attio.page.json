@@ -1,0 +1,407 @@
+{
+  "company": "attio",
+  "tier": "Heavy",
+  "brandColor": "#266DF0",
+  "source": "authored-in-agent",
+  "narrative": "Attio = AI CRM ('CRM of the future', endless customization). Massive, sustained Google program: 604 creatives, some running 1,180+ days. LinkedIn = employee thought-leader ads (no company account). Mirror: Attio built the CRM teams trust to see every deal — which of your 604 Google ads actually fills that pipeline? Arc (blended Fixify direction, dark/light alternation, no calculator): hero(dark)+agent-card → homework(light) → mirror statement(dark) → capabilities(light, numbered + outcome pills) → agentLoop(light) → recommendations(dark, rich agent cards) → comparison TABLE(light) → defensibility(dark) → integrations(light, pill rows) → pilot(dark) → cta(light).",
+  "sections": [
+    {
+      "type": "hero",
+      "bg": "plain",
+      "eyebrow": "Prepared for Attio's growth & performance team",
+      "headline": "Agents that run your paid engine and *make the next move*.",
+      "subhead": "You run one of the biggest paid programs in software — 604 Google creatives (some running 1,180+ days) capturing 'CRM of the future,' customization and vertical intent, plus 238 LinkedIn creatives building the AI-native-CRM-for-startups brand. Agents watch both surfaces daily, catch which campaigns and creatives actually become pipeline, and hand you the exact next move — with the reasoning behind it. You approve; they act.",
+      "ctaLabel": "Book a walkthrough",
+      "chips": [
+        "Connects in week one",
+        "Recommendations by week four",
+        "Grounded in verified analysis"
+      ],
+      "card": {
+        "app": "Northstar Agent",
+        "time": "6:14 AM",
+        "tag": "Campaign efficiency",
+        "title": "604 live Google creatives — but 'Customizable Templates' points every click at one page",
+        "found": "Your highest-volume headline runs across dozens of terms — Agencies, Integrations, Deal Management — and sends all of them to the same generic destination.",
+        "why": "Intent is splintering but the landing page isn't, so the searcher who wanted deal management lands on a template pitch and bounces. That's spend converting below its ceiling.",
+        "metrics": [
+          {
+            "v": "604",
+            "k": "Live Google ads"
+          },
+          {
+            "v": "1,184d",
+            "k": "Longest run"
+          },
+          {
+            "v": "3",
+            "k": "Core angles"
+          }
+        ],
+        "move": "Route the top vertical terms (Agencies, Deal Management, Integrations) to intent-matched pages, and retire the long-tail creatives with no opportunity in 90 days.",
+        "impact": "Higher trial→paid rate on the same spend",
+        "actions": [
+          "Ask why",
+          "Approve & route"
+        ]
+      }
+    },
+    {
+      "type": "homework",
+      "bg": "white",
+      "icon": "binoculars",
+      "eyebrow": "We did our homework",
+      "heading": "We studied how Attio runs paid *before writing a word*.",
+      "body": "Pulled from your public Google and LinkedIn ad libraries, July 2026. It's one of the biggest paid programs we've seen in software — two heavy channels running distinct jobs. Here's what we saw — and where an agent layer earns its keep.",
+      "channels": [
+        {
+          "platform": "Google Search",
+          "stat": "604",
+          "label": "Always-on category + vertical capture",
+          "body": "'CRM of the Future,' 'CRM for Agencies,' 'Customizable Templates,' 'CRM With Many Integrations,' 'Best Deal Management Platform' — one customization promise ('tweak anything, build from anywhere') across 465 text, 78 video and 61 image creatives. Some have run 1,180+ days straight."
+        },
+        {
+          "platform": "LinkedIn",
+          "stat": "238",
+          "label": "AI-native-CRM brand for startups",
+          "body": "'Attio is the AI-native CRM that builds, scales and grows your company,' 'the next era of startups requires a new kind of CRM,' 'Ask more from your CRM' — plus legacy-CRM migration, YC/startup 80%-off offers, social proof (Granola, Modal, Ramp) and your GTM Atlas content. Image-heavy — your brand and startup-acquisition engine."
+        }
+      ],
+      "footer": "Two heavy channels, 842 live creatives — one of the deepest software paid programs we've torn down. The gap isn't the ads — it's which of them actually becomes a paying team in your own CRM, correlated across Google intent and every LinkedIn touch and acted on daily. That's the layer Northstar Analytics owns."
+    },
+    {
+      "type": "statement",
+      "bg": "dark",
+      "icon": "eye",
+      "eyebrow": "The one pipeline you can't see",
+      "heading": "You built the CRM revenue teams trust to see every deal. Which of your 842 ads actually fills it?",
+      "body": "Attio exists so teams stop guessing where a deal stands. But your own growth engine runs the way most do — spend across Google and LinkedIn, signups in the product, revenue in the CRM — and nothing joins them daily. Northstar Analytics closes that seam for your acquisition the way Attio closed it for your customers' pipeline."
+    },
+    {
+      "type": "capabilities",
+      "bg": "white",
+      "icon": "squares-four",
+      "eyebrow": "Capabilities → business impact",
+      "heading": "Built around what Attio's growth team *already owns*.",
+      "sub": "Six capabilities, each tied to a number you're accountable for — CAC, trial→paid, and which spend actually becomes revenue.",
+      "items": [
+        {
+          "icon": "funnel",
+          "title": "Missed-pipeline detection",
+          "body": "Flags ICP accounts that clicked your Google ads or engaged your team's LinkedIn posts but never became a workspace or an opportunity.",
+          "outcome": "$180K recoverable ARR / quarter"
+        },
+        {
+          "icon": "path",
+          "title": "Golden-path lookalikes",
+          "body": "Matches in-flight signups against the sequence behind your best paying teams — self-serve and sales-assisted scored separately.",
+          "outcome": "91% match → higher win rate"
+        },
+        {
+          "icon": "chart-bar",
+          "title": "Channel-to-revenue efficiency",
+          "body": "Ties all 842 creatives across Google and LinkedIn to trials and paid conversion — true cost-per-customer by channel, term, vertical and angle.",
+          "outcome": "True cost-per-paid-team, every channel"
+        },
+        {
+          "icon": "scissors",
+          "title": "Creative-fatigue & waste",
+          "body": "Catches the long-tail creatives (of 604) and terms that keep spending but haven't produced a paying team in 90 days.",
+          "outcome": "Reclaims spend on zero-paid terms"
+        },
+        {
+          "icon": "squares-four",
+          "title": "Intent-to-page matching",
+          "body": "Spots where high-intent vertical terms (Agencies, Deal Management) point at a generic page — and recommends the one that converts.",
+          "outcome": "2.6× paid-conv on vertical intent"
+        },
+        {
+          "icon": "arrows-clockwise",
+          "title": "Agentic dashboards",
+          "body": "Dashboards the agent rebuilds as your definitions change — self-serve vs sales-led, activation, PQL thresholds.",
+          "outcome": "Always current, zero upkeep"
+        }
+      ]
+    },
+    {
+      "type": "agentLoop",
+      "bg": "tint",
+      "icon": "target",
+      "eyebrow": "How the agents work",
+      "heading": "Point the agents at a goal. Agents run the rest.",
+      "body": "Set a goal in your own terms — cost-per-paid-team on Google, product-qualified signups by vertical — and the agent works out what to watch and what to do, on your numbers.",
+      "goals": [
+        {
+          "text": "Cut cost-per-paid-team on Google 20% — without dropping signup volume.",
+          "result": "Agents watch all 604 creatives daily and move budget toward the terms that produce paying teams, not just trials."
+        },
+        {
+          "text": "Get every product-qualified signup routed before it goes cold.",
+          "result": "Agents learn the path your paying teams took, catch the ones that stall in activation, and hand them to sales or a nurture."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Monitor",
+          "body": "Track every Google campaign, keyword and product signup daily — against your goal and your own baseline, not a canned benchmark."
+        },
+        {
+          "title": "Verify",
+          "body": "Every number is checked against source data before it reaches you — grounded analysis, not a guess."
+        },
+        {
+          "title": "Recommend",
+          "body": "When a sustained pattern bears on the goal, surface the move in Slack: evidence, cause, action, and what it's worth."
+        },
+        {
+          "title": "Act",
+          "body": "Approve and the agent acts — shifting budget, adding negatives, routing the account. Nothing fires until you say so."
+        },
+        {
+          "title": "Learn",
+          "body": "Every call you make is graded into memory, so next month's recommendation fits your motion better than this one."
+        }
+      ]
+    },
+    {
+      "type": "recommendations",
+      "bg": "white",
+      "icon": "lightning",
+      "eyebrow": "Two engines, running daily",
+      "heading": "Always know your next move.",
+      "body": "One engine watches paid-media efficiency; the other watches signups against your golden path. Two live examples, built for Attio.",
+      "cards": [
+        {
+          "app": "Northstar Agent",
+          "time": "6:02 AM",
+          "tag": "Campaign budget",
+          "title": "'CRM for Agencies' converts to paid at 2.6× the blended rate — but gets 4% of the budget",
+          "found": "Vertical-intent terms (Agencies, Deal Management) convert trials to paid teams at 2.6× your generic 'CRM' terms, yet the long-tail category creatives still absorb most of the spend.",
+          "why": "Those long-tail terms haven't lifted paid conversion in 90 days — budget is anchored to volume, not to the terms that actually become paying teams.",
+          "metrics": [
+            {
+              "v": "2.6×",
+              "k": "Paid-conv lift"
+            },
+            {
+              "v": "604",
+              "k": "Live creatives"
+            },
+            {
+              "v": "90d",
+              "k": "Flat on generic"
+            }
+          ],
+          "move": "Shift 20% of generic-category budget to the vertical-intent terms, point them at intent-matched pages, and add the zero-paid long-tail terms as negatives.",
+          "impact": "Lower cost-per-paid-team without adding spend",
+          "actions": [
+            "Ask why",
+            "Shift budget"
+          ]
+        },
+        {
+          "app": "Northstar Agent",
+          "time": "6:04 AM",
+          "tag": "Activation & routing",
+          "title": "23 ICP workspaces signed up from Google, hit the data-model setup, and stalled — none routed",
+          "found": "Over 14 days, 23 workspaces matching your best paying-team profile signed up from paid search, reached the import/data-model step, and went quiet.",
+          "why": "This is the exact pattern before 4 of your last 6 sales-assisted wins — high-fit accounts stalling at the one step that predicts expansion.",
+          "metrics": [
+            {
+              "v": "23",
+              "k": "Stalled workspaces"
+            },
+            {
+              "v": "91%",
+              "k": "Golden-path match"
+            },
+            {
+              "v": "$180K",
+              "k": "Recoverable ARR"
+            }
+          ],
+          "move": "Route the 9 largest workspaces to sales today as a named list, and enroll the rest in an activation nurture keyed to the data-model step they stalled on.",
+          "impact": "Recoverable expansion & paid conversion this quarter",
+          "actions": [
+            "Ask why",
+            "Route to sales"
+          ]
+        }
+      ],
+      "note": "Illustrative — calibrated to Attio's paid motion. On a pilot the numbers are your own, every one traceable to the record behind it."
+    },
+    {
+      "type": "comparison",
+      "bg": "tint",
+      "icon": "scales",
+      "eyebrow": "Why not just a dashboard",
+      "heading": "A dashboard reports. Northstar Analytics *decides — and acts*.",
+      "sub": "You already run Google Ads, LinkedIn, GA4 and product analytics. Here's what changes when agents own the layer on top of all of them.",
+      "rows": [
+        {
+          "capability": "Who watches all 842 creatives, daily",
+          "dashboards": "You — when there's time to open four tabs and reconcile them by hand",
+          "sender": "Agents watch Google + LinkedIn every day; pull you in only when there's a move to make"
+        },
+        {
+          "capability": "Ad spend stitched to paid conversion in the CRM",
+          "dashboards": "Each tool reports its own slice — clicks here, signups there, revenue in Attio",
+          "sender": "One model from impression to paying team, re-checked daily on your own definitions"
+        },
+        {
+          "capability": "True cost-per-paid-team by term & angle",
+          "dashboards": "Google shows cost-per-click; nothing ties a term to a paying team",
+          "sender": "Cost-per-paid-team by channel, term, vertical and creative — not cost-per-trial"
+        },
+        {
+          "capability": "The next action, not just the number",
+          "dashboards": "A chart; you still decide what to do with it",
+          "sender": "A specific move: the campaign, the accounts, the budget shift — in Slack"
+        },
+        {
+          "capability": "Explains its own reasoning on demand",
+          "dashboards": "No — you reverse-engineer the query behind the number",
+          "sender": "Reply 'Ask why' for the full analysis and data lineage"
+        },
+        {
+          "capability": "Catches stalled ICP signups before they cool",
+          "dashboards": "Only if someone builds the report and checks it in time",
+          "sender": "Flags golden-path matches that stall in activation and routes them the same day"
+        }
+      ]
+    },
+    {
+      "type": "defensibility",
+      "bg": "white",
+      "icon": "shield-check",
+      "eyebrow": "Recommendations you can defend",
+      "heading": "You built a CRM teams trust with their pipeline. Our recommendations earn the same trust.",
+      "body": "Attio wins because the data is one source of truth teams can act on. We hold our recommendations to the same bar — every one shows its work, so you can put the number in front of your CRO or board without taking it on faith.",
+      "points": [
+        {
+          "icon": "tree-structure",
+          "title": "A methodology trail",
+          "body": "Every metric carries full lineage, raw data to summary, on your definitions — trial, PQL, paid team, your attribution windows. Safe for the board."
+        },
+        {
+          "icon": "chats-circle",
+          "title": "'Ask why,' any time",
+          "body": "Reply to any recommendation in Slack for the exact analysis, why it fired, and the leading indicator to watch. No black box."
+        },
+        {
+          "icon": "hand",
+          "title": "You approve every move",
+          "body": "Approve, hold, or ask why before anything acts. Tell an agent to wait or change course and it adapts the next run — no re-config."
+        }
+      ]
+    },
+    {
+      "type": "integrations",
+      "bg": "white",
+      "icon": "plugs-connected",
+      "eyebrow": "Connects natively to your stack",
+      "heading": "Your channels and CRM first. The rest when you need it.",
+      "body": "Northstar Analytics plugs into where Attio already runs — no data team required. Every metric stays traceable to the record behind it, and data handling is documented for your security review.",
+      "groups": [
+        {
+          "label": "Ad platforms",
+          "items": [
+            {
+              "name": "Google Ads",
+              "status": "live"
+            },
+            {
+              "name": "LinkedIn Ads",
+              "status": "live"
+            },
+            {
+              "name": "Meta Ads",
+              "status": "ready"
+            }
+          ]
+        },
+        {
+          "label": "CRM, marketing automation & product",
+          "items": [
+            {
+              "name": "Attio",
+              "status": "live"
+            },
+            {
+              "name": "Salesforce",
+              "status": "ready"
+            },
+            {
+              "name": "HubSpot",
+              "status": "ready"
+            },
+            {
+              "name": "GA4",
+              "status": "ready"
+            }
+          ]
+        },
+        {
+          "label": "Rest of the stack, via Fivetran",
+          "items": [
+            {
+              "name": "Reddit Ads",
+              "status": "ready"
+            },
+            {
+              "name": "Bing Ads",
+              "status": "ready"
+            },
+            {
+              "name": "6sense",
+              "status": "ready"
+            },
+            {
+              "name": "+ 300 more sources",
+              "status": "ready"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "pilot",
+      "bg": "dark",
+      "icon": "rocket-launch",
+      "eyebrow": "The four-week pilot",
+      "heading": "Connected in week one. Recommending by week four.",
+      "body": "A structured pilot with a clear milestone each week. You see the depth before you commit — no card, no call to start.",
+      "steps": [
+        {
+          "when": "Week 1 · Connection",
+          "title": "Connect Google, product & CRM",
+          "body": "Google Ads and your product/CRM connect directly — no engineering ticket, no data team required."
+        },
+        {
+          "when": "Week 1–2 · Walkthrough",
+          "title": "Agent builds your golden path",
+          "body": "Once data syncs (~24h), we walk through the paid-media skill and your paid-team definition, live on your data."
+        },
+        {
+          "when": "Week 2 · Dashboards",
+          "title": "Spend & conversion go live",
+          "body": "Self-serve dashboards: spend efficiency and cost-per-paid-team across all 842 creatives (Google + LinkedIn), on demand."
+        },
+        {
+          "when": "Week 3–4 · Recommendations",
+          "title": "Agents monitor daily",
+          "body": "Goal-driven recommendations activate — learning your motion and sharpening every call."
+        }
+      ]
+    },
+    {
+      "type": "booking",
+      "bg": "white",
+      "icon": "calendar-check",
+      "eyebrow": "Book your walkthrough",
+      "heading": "See it on your data — *no card, no call*.",
+      "body": "Grab 30 minutes with the team. We'll walk the paid-media agent on your real ad data and map the rollout — connect in week one, data syncs in about a day, dashboards in week two, agent recommendations by week four. No card, no pressure.",
+      "cal": "your-cal-username/intro"
+    }
+  ]
+}

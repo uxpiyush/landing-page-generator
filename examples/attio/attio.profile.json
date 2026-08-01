@@ -1,0 +1,102 @@
+{
+  "company": "attio",
+  "scoredAt": "2026-07-09T01:59:55.757Z",
+  "model": "reweighted-v1-no-velocity",
+  "signals": [
+    {
+      "key": "volume",
+      "label": "Volume",
+      "raw": "842 active creatives across 2 platforms (LinkedIn 238 · Google 604)",
+      "normalized": 1,
+      "weight": 40,
+      "points": 40,
+      "method": "min(1, count/30) — capped"
+    },
+    {
+      "key": "breadth",
+      "label": "Platform breadth",
+      "raw": "2 platform(s) active (linkedin:238, google:604)",
+      "normalized": 0.6666666666666666,
+      "weight": 22,
+      "points": 14.666666666666666,
+      "method": "active libraries / 3"
+    },
+    {
+      "key": "format",
+      "label": "Format sophistication",
+      "raw": "mean richness 0.37 (5% video) — SAMPLED 238/842",
+      "normalized": 0.37478991596638556,
+      "weight": 25,
+      "points": 9.36974789915964,
+      "method": "mean(video=1.0, carousel=0.7, single_image=0.35, text=0.1) over 238-creative sample"
+    },
+    {
+      "key": "messaging",
+      "label": "Messaging breadth",
+      "raw": "2 distinct themes",
+      "normalized": 0.4,
+      "weight": 13,
+      "points": 5.2,
+      "method": "min(1, distinctThemes/5) — keyword buckets (heuristic, refined in Step 4)"
+    }
+  ],
+  "score": 69.23641456582631,
+  "tier": "Heavy",
+  "boundaries": {
+    "heavy": 60,
+    "moderate": 25
+  },
+  "formatMix": {
+    "Single Image Ad": 222,
+    "Conversation/Message Ad": 5,
+    "Video Ad": 11
+  },
+  "themes": [
+    {
+      "key": "sdr_prospecting",
+      "label": "SDR / prospecting productivity",
+      "hits": 0
+    },
+    {
+      "key": "revops_crm",
+      "label": "RevOps / CRM / Salesforce activity",
+      "hits": 218
+    },
+    {
+      "key": "consolidation",
+      "label": "Tool consolidation / all-in-one",
+      "hits": 0
+    },
+    {
+      "key": "competitive",
+      "label": "Competitive / comparison",
+      "hits": 0
+    },
+    {
+      "key": "conversation_intel",
+      "label": "Conversation intelligence / notes",
+      "hits": 0
+    },
+    {
+      "key": "deal_forecast",
+      "label": "Deal / pipeline / forecasting",
+      "hits": 0
+    },
+    {
+      "key": "coaching",
+      "label": "Coaching / ramp / rep performance",
+      "hits": 2
+    },
+    {
+      "key": "roi_cost",
+      "label": "ROI / cost / pricing",
+      "hits": 0
+    }
+  ],
+  "droppedSignals": [
+    {
+      "key": "refresh_velocity",
+      "reason": "Dropped for model consistency, though 604/238 sampled creatives DO carry EU/DSA dates — velocity is recoverable for this advertiser if re-enabled."
+    }
+  ]
+}

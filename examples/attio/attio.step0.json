@@ -1,0 +1,10 @@
+{
+  "company": "attio",
+  "note": "Deeper research via SearchApi. Google: domain attio.com → advertiser_id AR... 'Attio Limited', 604 creatives (465 text / 78 video / 61 image), always-on since 2023, some running 1,180+ days; themes: CRM of the Future, endless customization/flexibility, vertical targeting, integrations, deal management. LinkedIn: advertiser 'Attio' → 238 creatives (222 image / 11 video / 5 text), all with copy — AI-native CRM for startups: 'Attio is the AI-native CRM that builds, scales and grows your company', 'the next era of startups requires a new kind of CRM', 'Ask more from your CRM', legacy-CRM migration + YC/startup 80%-off, social proof (Granola, Modal, Ramp), GTM Atlas content. Meta: keyword resolve inconclusive (namesakes); not a confirmed channel. 842 total across 2 confirmed channels.",
+  "resolvedAt": "2026-07-08", "source": "searchapi",
+  "platforms": {
+    "linkedin": { "count": 238, "checked": true, "advertiser": "Attio", "verified": true },
+    "meta": { "count": null, "checked": false, "reason": "keyword resolve inconclusive (namesakes); paused" },
+    "google": { "count": 604, "checked": true, "domain": "attio.com", "advertiser": "Attio Limited", "verified": true }
+  }
+}

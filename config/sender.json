@@ -1,0 +1,27 @@
+{
+  "_comment": "Who the generated pages are FROM. Every page is a pitch from this sender to a target company. Edit this file to point the tool at your own company — nothing else in src/ carries brand identity.",
+
+  "name": "Northstar Analytics",
+  "agentName": "Northstar Agent",
+
+  "pageTitle": "{sender} for {company}",
+  "metaDescription": "{sender} — see where {company}'s pipeline actually comes from, across every channel.",
+  "footerLine": "See where your pipeline actually comes from — across every channel, in one model.",
+  "comparisonLabel": "{sender} agents",
+
+  "_accentComment": "The sender's own accent — the 'sender voice' on agent cards and the recommendation band. Distinct from the TARGET's brand color, which drives the primary accent and comes from each page spec's brandColor.",
+  "accent": {
+    "base": "#6E56CF",
+    "dark": "#5A44B8",
+    "tint50": "#F0EDFB",
+    "tint100": "#E3DDF7",
+    "text": "#5B46B5"
+  },
+
+  "logo": "assets/sender-logo.svg",
+  "favicon": "assets/favicon.svg",
+  "touchIcon": "assets/apple-touch-icon.png",
+
+  "_calComment": "Default booking link for the `booking` closer. A page spec's `cal` field overrides this; CAL_LINK in .env overrides both.",
+  "calLink": "your-cal-username/intro"
+}

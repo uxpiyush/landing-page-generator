@@ -1,0 +1,32 @@
+{
+  "name": "claude-landing-pages",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Researches a company's real paid-ad strategy, then composes a personalized landing page for them — orchestrated in Claude Code.",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "fetch:brand": "tsx src/fetch-brand.ts",
+    "fetch:linkedin": "tsx src/fetch-linkedin.ts",
+    "fetch:meta": "tsx src/fetch-meta.ts",
+    "fetch:google": "tsx src/fetch-google.ts",
+    "merge:vision": "tsx src/merge-vision-copy.ts",
+    "score": "tsx src/score.ts",
+    "render": "tsx src/render.ts",
+    "scrape:linkedin": "tsx src/fallback/scrape-linkedin.ts",
+    "scrape:meta": "tsx src/fallback/scrape-meta.ts",
+    "probe:searchapi": "tsx src/fallback/searchapi-probe.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

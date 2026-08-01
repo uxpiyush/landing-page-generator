@@ -1,0 +1,402 @@
+{
+  "company": "circleci",
+  "tier": "Heavy",
+  "brandColor": "#003740",
+  "source": "authored-in-agent",
+  "narrative": "CircleCI = CI/CD platform (build/test/deploy, fast automated feedback, validate before it ships). Google 91 + LinkedIn 193 = 284. Mirror: CI/CD gives engineering fast automated feedback on every build — Northstar Analytics is that feedback loop for the paid engine. Blended Fixify design: dark/light alternation, comparison table, capability outcome pills, no calculator.",
+  "sections": [
+    {
+      "type": "hero",
+      "bg": "plain",
+      "eyebrow": "Prepared for CircleCI's growth & performance team",
+      "headline": "Agents that run your paid engine and *make the next move*.",
+      "subhead": "You run one of the most sophisticated CI/CD paid programs we've seen — 91 Google creatives capturing category and competitor intent, and 193 LinkedIn creatives running demand-gen, replatform conquesting and founder storytelling. Agents watch both surfaces daily, catch which campaigns and creatives actually become pipeline, and hand you the exact next move — with the reasoning behind it. You approve; they act.",
+      "ctaLabel": "Book a walkthrough",
+      "chips": [
+        "Connects in week one",
+        "Recommendations by week four",
+        "Grounded in verified analysis"
+      ],
+      "card": {
+        "app": "Northstar Agent",
+        "time": "6:14 AM",
+        "tag": "Campaign efficiency",
+        "title": "'AI Development Pipeline' is your fastest-growing angle — but shares one page with generic 'CI/CD'",
+        "found": "Your newest, highest-intent message ('validate AI-generated code at AI speed') runs on the same destination as broad category terms — AI-native teams and generic CI/CD searchers land in the same place.",
+        "why": "So the angle that's actually working can't be told apart from the one that isn't, and you're scaling spend blind to which message produces paying teams.",
+        "metrics": [
+          {
+            "v": "91",
+            "k": "Live Google ads"
+          },
+          {
+            "v": "5",
+            "k": "Core angles"
+          },
+          {
+            "v": "3",
+            "k": "Markets"
+          }
+        ],
+        "move": "Split the AI-validation angle onto its own page and campaign, measure trial→paid separately, and shift budget from the flat generic terms toward it.",
+        "impact": "See which angle actually produces paying teams",
+        "actions": [
+          "Ask why",
+          "Approve & split"
+        ]
+      }
+    },
+    {
+      "type": "homework",
+      "bg": "white",
+      "icon": "binoculars",
+      "eyebrow": "We did our homework",
+      "heading": "We studied how CircleCI runs paid *before writing a word*.",
+      "body": "Pulled from your public Google and LinkedIn ad libraries, July 2026. It's one of the most sophisticated CI/CD paid programs we've seen — two heavy channels running distinct jobs. Here's what we saw — and where an agent layer earns its keep.",
+      "channels": [
+        {
+          "platform": "Google Search",
+          "stat": "91",
+          "label": "Category + competitor intent capture",
+          "body": "'AI Development Pipeline,' 'Migrate to CircleCI,' vs-Bitrise comparison pages, enterprise scale + compliance — text-dominant, always-on, multi-market (incl. Japan). Bottom-of-funnel: you buy the intent."
+        },
+        {
+          "platform": "LinkedIn",
+          "stat": "193",
+          "label": "Demand-gen · thought leadership · replatform conquesting",
+          "body": "'More than a CI/CD tool — a complete developer platform,' 'pragmatic engineers know fast feedback loops,' 'outgrown your CI/CD platform? Time to replatform,' 'works at 10 devs, breaks at 100 or 1000,' founder storytelling and AI-validation. Image- and video-heavy — your brand and switching engine."
+        }
+      ],
+      "footer": "Two heavy channels, 284 live creatives, and a sharp anti-incumbent switching motion. The gap isn't the ads — it's which of them actually becomes a paying team, correlated across Google intent and every LinkedIn touch and acted on daily. That's the layer Northstar Analytics owns."
+    },
+    {
+      "type": "statement",
+      "bg": "dark",
+      "icon": "arrows-clockwise",
+      "eyebrow": "The feedback loop you don't have",
+      "heading": "You gave engineering fast, automated feedback on every build. Who gives your growth team that on every ad dollar?",
+      "body": "CircleCI exists so teams learn what broke in seconds, not in production. But your own growth engine runs the way most do — spend across Google and LinkedIn, signups in the product, revenue in the CRM — and nothing joins them daily. Northstar Analytics is that feedback loop for your ad spend: CI/CD for the paid engine — catch what's failing early, and fix it before the budget's gone."
+    },
+    {
+      "type": "capabilities",
+      "bg": "white",
+      "icon": "squares-four",
+      "eyebrow": "Capabilities → business impact",
+      "heading": "Built around what CircleCI's growth team *already owns*.",
+      "sub": "Six capabilities, each tied to a number you're accountable for — CAC, trial→paid, and which spend actually becomes revenue.",
+      "items": [
+        {
+          "icon": "funnel",
+          "title": "Missed-pipeline detection",
+          "body": "Flags ICP teams that clicked your Google ads or engaged your LinkedIn content but never became a paid plan or an opportunity.",
+          "outcome": "$220K recoverable pipeline / quarter"
+        },
+        {
+          "icon": "path",
+          "title": "Golden-path lookalikes",
+          "body": "Matches in-flight signups against the sequence behind your best paying teams — self-serve and enterprise scored separately.",
+          "outcome": "90% match → higher win rate"
+        },
+        {
+          "icon": "chart-bar",
+          "title": "Channel-to-revenue efficiency",
+          "body": "Ties all 284 creatives across Google and LinkedIn to trials and paid conversion — true cost-per-paying-team by channel and angle.",
+          "outcome": "True cost-per-paid-team, both channels"
+        },
+        {
+          "icon": "scissors",
+          "title": "Creative-fatigue & waste",
+          "body": "Catches the generic long-tail terms that keep spending but haven't produced a paying team in 90 days.",
+          "outcome": "Reclaims spend on zero-paid terms"
+        },
+        {
+          "icon": "globe-hemisphere-west",
+          "title": "Market-level read",
+          "body": "Separates US from JP and other markets so a strong region isn't hidden inside a blended average.",
+          "outcome": "Surfaces your strongest region"
+        },
+        {
+          "icon": "shield-check",
+          "title": "Spend-integrity watch",
+          "body": "Catches disapproved creatives, pacing drift, and message inconsistencies across the account the moment they occur.",
+          "outcome": "Catches disapprovals & drift live"
+        }
+      ]
+    },
+    {
+      "type": "agentLoop",
+      "bg": "tint",
+      "icon": "target",
+      "eyebrow": "How the agents work",
+      "heading": "Point the agents at a goal. Agents run the rest.",
+      "body": "Set a goal in your own terms — cost-per-paying-team on Google, enterprise pipeline by market — and the agent works out what to watch and what to do, on your numbers.",
+      "goals": [
+        {
+          "text": "Prove out the AI-validation angle 25% faster — without dropping signup volume.",
+          "result": "Agents isolate the AI-pipeline campaigns, measure trial→paid on their own, and move budget toward what converts."
+        },
+        {
+          "text": "Route every enterprise-intent signup before it stalls in the compliance eval.",
+          "result": "Agents learn the path your enterprise wins took, catch the ones that stall on self-hosted/SOC 2, and hand them to sales."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Monitor",
+          "body": "Track every Google campaign, keyword and product signup daily — against your goal and your own baseline, not a canned benchmark."
+        },
+        {
+          "title": "Verify",
+          "body": "Every number is checked against source data before it reaches you — grounded analysis, not a guess."
+        },
+        {
+          "title": "Recommend",
+          "body": "When a sustained pattern bears on the goal, surface the move in Slack: evidence, cause, action, and what it's worth."
+        },
+        {
+          "title": "Act",
+          "body": "Approve and the agent acts — shifting budget, adding negatives, routing the account. Nothing fires until you say so."
+        },
+        {
+          "title": "Learn",
+          "body": "Every call you make is graded into memory, so next month's recommendation fits your motion better than this one."
+        }
+      ]
+    },
+    {
+      "type": "recommendations",
+      "bg": "white",
+      "icon": "lightning",
+      "eyebrow": "Two engines, running daily",
+      "heading": "Always know your next move.",
+      "body": "One engine watches paid-media efficiency; the other watches signups against your golden path. Two live examples, built for CircleCI.",
+      "cards": [
+        {
+          "app": "Northstar Agent",
+          "time": "6:02 AM",
+          "tag": "Campaign budget",
+          "title": "'Migrate to CircleCI' and vs-Bitrise terms convert to paid at 2.3× — but get 6% of the budget",
+          "found": "Migration and comparison terms pull in switchers who convert to paid teams at 2.3× your generic 'CI/CD' terms, yet the broad category creatives still absorb most of the spend.",
+          "why": "Those generic terms haven't lifted paid conversion in 90 days — so a large share of budget is buying volume that never becomes paying teams.",
+          "metrics": [
+            {
+              "v": "2.3×",
+              "k": "Paid-conv lift"
+            },
+            {
+              "v": "91",
+              "k": "Live creatives"
+            },
+            {
+              "v": "90d",
+              "k": "Flat on generic"
+            }
+          ],
+          "move": "Shift 20% of generic-category budget to the migration/comparison terms, point them at the vs-pages, and add the zero-paid long-tail terms as negatives.",
+          "impact": "Lower cost-per-paying-team without adding spend",
+          "actions": [
+            "Ask why",
+            "Shift budget"
+          ]
+        },
+        {
+          "app": "Northstar Agent",
+          "time": "6:04 AM",
+          "tag": "Activation & routing",
+          "title": "17 enterprise-shaped teams engaged your LinkedIn 'replatform' ads, signed up, then stalled at compliance",
+          "found": "Over 14 days, 17 teams matching your best enterprise-win profile engaged your LinkedIn replatform/switching content, signed up from search, reached the self-hosted runner / SOC 2 evaluation, and went quiet.",
+          "why": "This is the exact engagement pattern before 4 of your last 6 enterprise closes — high-value teams stalling right at the compliance step, unrouted to either team.",
+          "metrics": [
+            {
+              "v": "17",
+              "k": "Stalled teams"
+            },
+            {
+              "v": "90%",
+              "k": "Golden-path match"
+            },
+            {
+              "v": "$240K",
+              "k": "Recoverable ARR"
+            }
+          ],
+          "move": "Route the largest teams to sales today as a named list, and enroll the rest in an activation sequence keyed to the compliance step they stalled on.",
+          "impact": "Recoverable enterprise pipeline this quarter",
+          "actions": [
+            "Ask why",
+            "Route to sales"
+          ]
+        }
+      ],
+      "note": "Illustrative — calibrated to CircleCI's paid motion. On a pilot the numbers are your own, every one traceable to the record behind it."
+    },
+    {
+      "type": "comparison",
+      "bg": "tint",
+      "icon": "scales",
+      "eyebrow": "Why not just a dashboard",
+      "heading": "A dashboard reports. Northstar Analytics decides — and acts.",
+      "sub": "You already have Google Ads, LinkedIn and product analytics. Here's what changes when agents own the layer on top.",
+      "rows": [
+        {
+          "capability": "Who's watching every campaign, daily",
+          "dashboards": "You — when you have time to open Google Ads, LinkedIn and product analytics",
+          "sender": "Agents watch both channels every day; pull you in only when there's a move to make"
+        },
+        {
+          "capability": "Google + LinkedIn stitched to paid teams",
+          "dashboards": "Each platform reports its own clicks and signups; nothing ties them to a paid plan",
+          "sender": "The full path — ad → signup → activation → paid team, across both channels"
+        },
+        {
+          "capability": "Which angle actually converts",
+          "dashboards": "A blended number; you guess whether AI-validation or generic CI/CD worked",
+          "sender": "Cost-per-paying-team by angle and market, measured separately"
+        },
+        {
+          "capability": "The next action, not just the number",
+          "dashboards": "A chart; you decide what to do with it",
+          "sender": "A specific move: the term, the budget, the page to split"
+        },
+        {
+          "capability": "Numbers you can put in front of the board",
+          "dashboards": "Definitions drift between tools and people",
+          "sender": "Verified metrics on your definitions, with a methodology trail behind each"
+        },
+        {
+          "capability": "Explains itself on demand",
+          "dashboards": "No — you reverse-engineer the query",
+          "sender": "Reply \"Ask why\" in Slack for the full reasoning and data lineage"
+        }
+      ]
+    },
+    {
+      "type": "defensibility",
+      "bg": "white",
+      "icon": "shield-check",
+      "eyebrow": "Recommendations you can defend",
+      "heading": "You don't ship code without validation. We don't ship recommendations *without it either*.",
+      "body": "CircleCI's whole promise is that nothing reaches production unverified. We hold our recommendations to the same bar — every one shows its work, so you can put the number in front of your CRO or board without taking it on faith.",
+      "points": [
+        {
+          "icon": "tree-structure",
+          "title": "A methodology trail",
+          "body": "Every metric carries full lineage, raw data to summary, on your definitions — trial, paid team, your attribution windows. Safe for the board."
+        },
+        {
+          "icon": "chats-circle",
+          "title": "'Ask why,' any time",
+          "body": "Reply to any recommendation in Slack for the exact analysis, why it fired, and the leading indicator to watch. No black box."
+        },
+        {
+          "icon": "hand",
+          "title": "You approve every move",
+          "body": "Approve, hold, or ask why before anything acts. Tell an agent to wait or change course and it adapts the next run — no re-config."
+        }
+      ]
+    },
+    {
+      "type": "integrations",
+      "bg": "white",
+      "icon": "plugs-connected",
+      "eyebrow": "Connects natively to your stack",
+      "heading": "Your channels and CRM first. The rest when you need it.",
+      "body": "Northstar Analytics plugs into where CircleCI already runs — no data team required. Every metric stays traceable to the record behind it, and data handling is documented for your security review.",
+      "groups": [
+        {
+          "label": "Ad platforms",
+          "items": [
+            {
+              "name": "Google Ads",
+              "status": "live"
+            },
+            {
+              "name": "LinkedIn Ads",
+              "status": "live"
+            },
+            {
+              "name": "Meta Ads",
+              "status": "ready"
+            }
+          ]
+        },
+        {
+          "label": "CRM & product",
+          "items": [
+            {
+              "name": "Salesforce"
+            },
+            {
+              "name": "HubSpot"
+            },
+            {
+              "name": "GA4"
+            },
+            {
+              "name": "Product analytics"
+            }
+          ]
+        },
+        {
+          "label": "Rest of the stack, via Fivetran",
+          "items": [
+            {
+              "name": "Reddit Ads"
+            },
+            {
+              "name": "Bing Ads"
+            },
+            {
+              "name": "6sense"
+            },
+            {
+              "name": "ZoomInfo"
+            },
+            {
+              "name": "+ 300 more sources"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "pilot",
+      "bg": "dark",
+      "icon": "rocket-launch",
+      "eyebrow": "The four-week pilot",
+      "heading": "Connected in week one. Recommending by week four.",
+      "body": "A structured pilot with a clear milestone each week. You see the depth before you commit — no card, no call to start.",
+      "steps": [
+        {
+          "when": "Week 1 · Connection",
+          "title": "Connect Google, product & CRM",
+          "body": "Google Ads and your product/CRM connect directly — no engineering ticket, no data team required."
+        },
+        {
+          "when": "Week 1–2 · Walkthrough",
+          "title": "Agent builds your golden path",
+          "body": "Once data syncs (~24h), we walk through the paid-media skill and your paying-team definition, live on your data."
+        },
+        {
+          "when": "Week 2 · Dashboards",
+          "title": "Spend & conversion go live",
+          "body": "Self-serve dashboards: spend efficiency and cost-per-paying-team across all 284 creatives (Google + LinkedIn), by channel, angle and market."
+        },
+        {
+          "when": "Week 3–4 · Recommendations",
+          "title": "Agents monitor daily",
+          "body": "Goal-driven recommendations activate — learning your motion and sharpening every call."
+        }
+      ]
+    },
+    {
+      "type": "booking",
+      "bg": "white",
+      "icon": "calendar-check",
+      "eyebrow": "Book your walkthrough",
+      "heading": "See it on your data — *no card, no call*.",
+      "body": "Grab 30 minutes with the team. We'll walk the paid-media agent on your real ad data and map the rollout — connect in week one, data syncs in about a day, dashboards in week two, agent recommendations by week four. No card, no pressure.",
+      "cal": "your-cal-username/intro"
+    }
+  ]
+}

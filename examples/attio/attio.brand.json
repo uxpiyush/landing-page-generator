@@ -1,0 +1,61 @@
+{
+  "company": "attio",
+  "domain": "attio.com",
+  "fetchedAt": "2026-07-09T00:31:30.904Z",
+  "name": "Attio",
+  "description": "Founded in 2019, Attio is building a radically new type of CRM – built on real-time data, completely customizable and intuitively collaborative.",
+  "longDescription": "Attio is a groundbreaking brand that is revolutionizing the world of CRM. They offer a radically new type of CRM that is real-time, fully customizable, and intuitively collaborative. With Attio, businesses have the power to create, build, and deploy their CRM exactly as they want it. While other software systems like Notion, Figma, and Slack have transformed how we organize, design, and communicate, the CRM industry has remained relatively stagnant. Attio is here to change that. Founded in 2019, Attio is building a game-changing CRM that is built on real-time data and designed for the speed, scale, and capabilities that modern businesses require. Attio is proud to be backed by some of the world's best tech investors, demonstrating their credibility and industry expertise. They offer a range of products and services including a Chrome extension, iOS and Android apps, and integrations with Zapier and Integromat. With Attio, businesses can finally experience a CRM that truly meets their needs and propels them toward success. Join the revolution and start building your CRM for free with Attio.",
+  "colors": {
+    "primary": "#266DF0",
+    "secondary": "#FFFFFF",
+    "accent": "#1D1E20",
+    "suggestedBackground": "#ffffff",
+    "suggestedText": "#0b1220",
+    "all": [
+      {
+        "hex": "#266DF0",
+        "role": "primary",
+        "brightness": 103,
+        "sourceType": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "secondary",
+        "brightness": 255,
+        "sourceType": "light"
+      },
+      {
+        "hex": "#1D1E20",
+        "role": "secondary",
+        "brightness": 30,
+        "sourceType": "dark"
+      }
+    ]
+  },
+  "fonts": {
+    "title": "Inter Display",
+    "body": "Inter"
+  },
+  "logo": {
+    "localPath": "data/attio.logo.svg",
+    "theme": "light",
+    "format": "svg",
+    "background": "transparent",
+    "sourceUrl": "https://cdn.brandfetch.io/idZA7HYRWK/theme/light/logo.svg",
+    "darkThemeOnly": false
+  },
+  "icon": {
+    "localPath": "data/attio.icon.png",
+    "sourceUrl": "https://cdn.brandfetch.io/idZA7HYRWK/w/400/h/400/theme/dark/icon.png"
+  },
+  "companyMeta": {
+    "foundedYear": 2019,
+    "employees": 51,
+    "location": "London, England, GB",
+    "industries": [
+      "Computers Electronics and Technology",
+      "Programming and Developer Software"
+    ]
+  },
+  "qualityScore": 0.9969419030816297
+}

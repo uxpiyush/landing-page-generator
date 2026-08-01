@@ -1,0 +1,347 @@
+{
+  "company": "ramp",
+  "tier": "Heavy",
+  "brandColor": "#E4F222",
+  "source": "authored-in-agent",
+  "narrative": "Ramp = the AI-native finance platform that gives 70,000 companies real-time visibility and automated control over every dollar of spend (auto-code 75%+, close books on time, catch waste before it hits margin). Enormous, sustained programs: 2,597 Google creatives (1,805 video, always-on since Jan 2022) + 1,389 LinkedIn creatives (image-heavy, deep vertical ABM — Healthcare/Consulting/Franchisors/Retail/Nonprofit/Immigration, named-account personalization). Mirror in Ramp's OWN language: Ramp closed the loop on spend for its customers — but its own growth engine runs the way finance ran before Ramp: spend out across channels, signups in-product, revenue in the CRM, nothing joined in real time. 'If you can't see it, you can't stop it' applies to their paid engine. Arc (light-first, 2 darks = statement + pilot): hero(plain)+agent-card → homework(white) → mirror statement(dark) → capabilities(white, numbered + outcome pills) → agentLoop(tint) → recommendations(white, rich agent cards) → comparison TABLE(tint) → defensibility(white) → integrations(white) → pilot(dark) → booking(white).",
+  "sections": [
+    {
+      "type": "hero",
+      "bg": "plain",
+      "eyebrow": "Prepared for Ramp's growth & performance marketing team",
+      "headline": "Agents that run your paid engine and *close the loop on spend*.",
+      "subhead": "You run one of the largest paid programs in software — 2,597 Google creatives (1,805 of them video, always-on since 2022) and 1,389 LinkedIn creatives running deep vertical ABM across Healthcare, Consulting, Franchisors and more. Agents watch both surfaces daily, catch which segments and creatives actually become funded accounts, and hand you the exact next move — with the reasoning behind it. You approve; they act.",
+      "ctaLabel": "Book a walkthrough",
+      "chips": [
+        "Connects in week one",
+        "Recommendations by week four",
+        "Grounded in verified analysis"
+      ],
+      "card": {
+        "app": "Petavue Agent",
+        "time": "6:11 AM",
+        "tag": "Segment efficiency",
+        "title": "1,389 LinkedIn creatives, 6 verticals — but 'Healthcare' and 'Consulting' convert to funded accounts at very different rates",
+        "found": "Your vertical ABM runs the same play across Healthcare, Consulting, Franchisors, Retail and Nonprofit — but two of those verticals produce signups that reach a funded card, and the other three mostly stall at signup.",
+        "why": "Budget is split evenly across verticals by volume, not by which vertical actually becomes a paying account — so spend is anchored to reach, not to revenue.",
+        "metrics": [
+          { "v": "1,389", "k": "LinkedIn creatives" },
+          { "v": "6", "k": "Vertical segments" },
+          { "v": "2,597", "k": "Google creatives" }
+        ],
+        "move": "Shift budget toward the two verticals that fund accounts, hold the middle, and pause the vertical creatives with no funded account in 90 days.",
+        "impact": "More funded accounts on the same spend",
+        "actions": [
+          "Ask why",
+          "Approve & shift"
+        ]
+      }
+    },
+    {
+      "type": "homework",
+      "bg": "white",
+      "icon": "binoculars",
+      "eyebrow": "We did our homework",
+      "heading": "We studied how Ramp runs paid *before writing a word*.",
+      "body": "Pulled from your public Google and LinkedIn ad libraries, July 2026. It's one of the largest, most deliberate paid programs we've seen in software — two heavy channels running distinct jobs. Here's what we saw — and where an agent layer earns its keep.",
+      "channels": [
+        {
+          "platform": "Google",
+          "stat": "2,597",
+          "label": "Always-on brand + performance video",
+          "body": "'Never chase a receipt again,' 'Love closing the books — on time,' 'Smarter financial decisions,' 'Put automation where manual work used to live' — 1,805 video, 432 text and 360 image creatives, running continuously since January 2022. A four-and-a-half-year, always-on YouTube + search engine."
+        },
+        {
+          "platform": "LinkedIn",
+          "stat": "1,389",
+          "label": "AI-native, all-in-one — segmented to the account",
+          "body": "'Cards, expenses, bill payments and banking — in the blink of AI,' 'Consolidate banking, cards & AP on Ramp,' 'auto-code 75%+ of transactions.' Deep vertical ABM — Healthcare, Consulting, Franchisors, Retail, Nonprofit, Immigration — with named-account personalization and competitor call-outs. Nearly every one carries copy. Your brand and account-acquisition engine."
+        }
+      ],
+      "footer": "Two heavy channels, 3,986 live creatives — one of the deepest software paid programs we've torn down. The gap isn't the ads — it's which of them actually becomes a funded account in Ramp, correlated across Google intent, every LinkedIn ABM touch, and product signup, and acted on daily. That's the layer Petavue owns."
+    },
+    {
+      "type": "statement",
+      "bg": "dark",
+      "icon": "eye",
+      "eyebrow": "The one line of spend you can't see",
+      "heading": "You gave 70,000 finance teams real-time control of every dollar they spend. Which of your own 3,986 ads actually funds an account?",
+      "body": "Ramp exists so finance teams stop finding out where the money went at month-end. But your own growth engine runs the way finance ran before Ramp — spend across Google and LinkedIn, signups in the product, revenue in the CRM — and nothing joins them daily. 'If you can't see it, you can't stop it' is your line. Petavue closes that seam for your acquisition the way Ramp closed it for your customers' spend."
+    },
+    {
+      "type": "capabilities",
+      "bg": "white",
+      "icon": "squares-four",
+      "eyebrow": "Capabilities → business impact",
+      "heading": "Built around what Ramp's growth team *already owns*.",
+      "sub": "Six capabilities, each tied to a number you're accountable for — CAC, signup→funded-account, and which spend actually becomes revenue.",
+      "items": [
+        {
+          "icon": "funnel",
+          "title": "Funded-account detection",
+          "body": "Flags ICP companies that clicked your Google ads or engaged your vertical LinkedIn ABM but signed up and never funded a card or became an opportunity.",
+          "outcome": "Recoverable pipeline every quarter"
+        },
+        {
+          "icon": "path",
+          "title": "Golden-path lookalikes",
+          "body": "Matches in-flight signups against the sequence behind your best funded accounts — self-serve and sales-assisted scored separately.",
+          "outcome": "Higher signup→funded win rate"
+        },
+        {
+          "icon": "chart-bar",
+          "title": "Channel-to-revenue efficiency",
+          "body": "Ties all 3,986 creatives across Google and LinkedIn to signups and funded accounts — true cost-per-funded-account by channel, term, vertical and angle.",
+          "outcome": "True cost-per-funded-account, every channel"
+        },
+        {
+          "icon": "scissors",
+          "title": "Creative-fatigue & waste",
+          "body": "Catches the long-tail of your 1,805 videos and the vertical creatives that keep spending but haven't produced a funded account in 90 days.",
+          "outcome": "Reclaims spend on zero-fund creatives"
+        },
+        {
+          "icon": "squares-four",
+          "title": "Vertical-to-page matching",
+          "body": "Spots where a high-intent vertical (Healthcare, Franchisors) is sent to a generic destination — and recommends the segment page that actually converts.",
+          "outcome": "Higher conversion on vertical intent"
+        },
+        {
+          "icon": "arrows-clockwise",
+          "title": "Agentic dashboards",
+          "body": "Dashboards the agent rebuilds as your definitions change — self-serve vs sales-led, activation, funded-account thresholds.",
+          "outcome": "Always current, zero upkeep"
+        }
+      ]
+    },
+    {
+      "type": "agentLoop",
+      "bg": "tint",
+      "icon": "target",
+      "eyebrow": "How the agents work",
+      "heading": "Point the agents at a goal. Agents run the rest.",
+      "body": "Set a goal in your own terms — cost-per-funded-account on Google, funded signups by vertical — and the agent works out what to watch and what to do, on your numbers.",
+      "goals": [
+        {
+          "text": "Cut cost-per-funded-account on Google 20% — without dropping signup volume.",
+          "result": "Agents watch all 2,597 creatives daily and move budget toward the terms and videos that produce funded accounts, not just signups."
+        },
+        {
+          "text": "Get every high-fit vertical signup routed before it goes cold.",
+          "result": "Agents learn the path your funded accounts took, catch the ones that stall before first card spend, and hand them to sales or a nurture."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Monitor",
+          "body": "Track every Google campaign, LinkedIn vertical and product signup daily — against your goal and your own baseline, not a canned benchmark."
+        },
+        {
+          "title": "Verify",
+          "body": "Every number is checked against source data before it reaches you — grounded analysis, not a guess."
+        },
+        {
+          "title": "Recommend",
+          "body": "When a sustained pattern bears on the goal, surface the move in Slack: evidence, cause, action, and what it's worth."
+        },
+        {
+          "title": "Act",
+          "body": "Approve and the agent acts — shifting budget, adding negatives, routing the account. Nothing fires until you say so."
+        },
+        {
+          "title": "Learn",
+          "body": "Every call you make is graded into memory, so next month's recommendation fits your motion better than this one."
+        }
+      ]
+    },
+    {
+      "type": "recommendations",
+      "bg": "white",
+      "icon": "lightning",
+      "eyebrow": "Two engines, running daily",
+      "heading": "Always know your next move.",
+      "body": "One engine watches paid-media efficiency; the other watches signups against your golden path. Two live examples, built for Ramp.",
+      "cards": [
+        {
+          "app": "Petavue Agent",
+          "time": "6:02 AM",
+          "tag": "Creative budget",
+          "title": "Your top 40 always-on videos absorb most of the Google budget — but three of them haven't funded an account in 90 days",
+          "found": "A handful of your 1,805 videos have run continuously since 2022 and still take the largest share of spend, yet three of the highest-spend cuts haven't produced a funded account in the last quarter — signups, yes; funded cards, no.",
+          "why": "Budget is anchored to tenure and view volume, not to which creative actually becomes a paying account — the classic always-on drift.",
+          "metrics": [
+            { "v": "1,805", "k": "Live videos" },
+            { "v": "90d", "k": "Zero funded" },
+            { "v": "'22", "k": "Always-on since" }
+          ],
+          "move": "Rotate spend from the three zero-fund veterans into the two vertical cuts converting above blended, and cap frequency on the fatigued long-tail.",
+          "impact": "Lower cost-per-funded-account without adding spend",
+          "actions": [
+            "Ask why",
+            "Shift budget"
+          ]
+        },
+        {
+          "app": "Petavue Agent",
+          "time": "6:05 AM",
+          "tag": "Activation & routing",
+          "title": "18 ICP accounts signed up from your Healthcare ABM, hit the ERP-sync step, and stalled — none routed",
+          "found": "Over 14 days, 18 companies matching your best funded-account profile signed up from the Healthcare vertical, reached the accounting/ERP-sync step, and went quiet before first card spend.",
+          "why": "This is the exact pattern before several of your recent sales-assisted funded accounts — high-fit companies stalling at the one step that predicts activation.",
+          "metrics": [
+            { "v": "18", "k": "Stalled accounts" },
+            { "v": "89%", "k": "Golden-path match" },
+            { "v": "14d", "k": "Since signup" }
+          ],
+          "move": "Route the largest accounts to sales today as a named list, and enroll the rest in an activation nurture keyed to the ERP-sync step they stalled on.",
+          "impact": "Recoverable funded accounts this quarter",
+          "actions": [
+            "Ask why",
+            "Route to sales"
+          ]
+        }
+      ],
+      "note": "Illustrative — calibrated to Ramp's paid motion. On a pilot the numbers are your own, every one traceable to the record behind it."
+    },
+    {
+      "type": "comparison",
+      "bg": "tint",
+      "icon": "scales",
+      "eyebrow": "Why not just a dashboard",
+      "heading": "A dashboard reports. Petavue *decides — and acts*.",
+      "sub": "You already run Google Ads, LinkedIn, GA4 and product analytics. Here's what changes when agents own the layer on top of all of them.",
+      "rows": [
+        {
+          "capability": "Who watches all 3,986 creatives, daily",
+          "dashboards": "You — when there's time to open four tabs and reconcile them by hand",
+          "petavue": "Agents watch Google + LinkedIn every day; pull you in only when there's a move to make"
+        },
+        {
+          "capability": "Ad spend stitched to funded accounts in the CRM",
+          "dashboards": "Each tool reports its own slice — views here, signups there, revenue in the CRM",
+          "petavue": "One model from impression to funded account, re-checked daily on your own definitions"
+        },
+        {
+          "capability": "True cost-per-funded-account by vertical & creative",
+          "dashboards": "Google shows cost-per-click; nothing ties a video or a vertical to a funded account",
+          "petavue": "Cost-per-funded-account by channel, term, vertical and creative — not cost-per-signup"
+        },
+        {
+          "capability": "The next action, not just the number",
+          "dashboards": "A chart; you still decide what to do with it",
+          "petavue": "A specific move: the campaign, the accounts, the budget shift — in Slack"
+        },
+        {
+          "capability": "Explains its own reasoning on demand",
+          "dashboards": "No — you reverse-engineer the query behind the number",
+          "petavue": "Reply 'Ask why' for the full analysis and data lineage"
+        },
+        {
+          "capability": "Catches stalled ICP signups before they cool",
+          "dashboards": "Only if someone builds the report and checks it in time",
+          "petavue": "Flags golden-path matches that stall before first card spend and routes them the same day"
+        }
+      ]
+    },
+    {
+      "type": "defensibility",
+      "bg": "white",
+      "icon": "shield-check",
+      "eyebrow": "Recommendations you can defend",
+      "heading": "You built the platform finance teams trust with every dollar. Our recommendations earn the same trust.",
+      "body": "Ramp wins because the numbers are clean, current and boardroom-ready. We hold our recommendations to the same bar — every one shows its work, so you can put the number in front of your CFO or board without taking it on faith.",
+      "points": [
+        {
+          "icon": "tree-structure",
+          "title": "A methodology trail",
+          "body": "Every metric carries full lineage, raw data to summary, on your definitions — signup, activated, funded account, your attribution windows. Safe for the board."
+        },
+        {
+          "icon": "chats-circle",
+          "title": "'Ask why,' any time",
+          "body": "Reply to any recommendation in Slack for the exact analysis, why it fired, and the leading indicator to watch. No black box."
+        },
+        {
+          "icon": "hand",
+          "title": "You approve every move",
+          "body": "Approve, hold, or ask why before anything acts. Tell an agent to wait or change course and it adapts the next run — no re-config."
+        }
+      ]
+    },
+    {
+      "type": "integrations",
+      "bg": "white",
+      "icon": "plugs-connected",
+      "eyebrow": "Connects natively to your stack",
+      "heading": "Your channels and CRM first. The rest when you need it.",
+      "body": "Petavue plugs into where Ramp already runs — no data team required. Every metric stays traceable to the record behind it, and data handling is documented for your security review.",
+      "groups": [
+        {
+          "label": "Ad platforms",
+          "items": [
+            { "name": "Google Ads", "status": "live" },
+            { "name": "LinkedIn Ads", "status": "live" },
+            { "name": "Meta Ads", "status": "ready" }
+          ]
+        },
+        {
+          "label": "CRM, marketing automation & product",
+          "items": [
+            { "name": "Salesforce", "status": "ready" },
+            { "name": "HubSpot", "status": "ready" },
+            { "name": "Marketo", "status": "ready" },
+            { "name": "GA4", "status": "ready" }
+          ]
+        },
+        {
+          "label": "Rest of the stack, via Fivetran",
+          "items": [
+            { "name": "Reddit Ads", "status": "ready" },
+            { "name": "Bing Ads", "status": "ready" },
+            { "name": "6sense", "status": "ready" },
+            { "name": "+ 300 more sources", "status": "ready" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "pilot",
+      "bg": "dark",
+      "icon": "rocket-launch",
+      "eyebrow": "The four-week pilot",
+      "heading": "Connected in week one. Recommending by week four.",
+      "body": "A structured pilot with a clear milestone each week. You see the depth before you commit — no card, no call to start.",
+      "steps": [
+        {
+          "when": "Week 1 · Connection",
+          "title": "Connect Google, product & CRM",
+          "body": "Google Ads and your product/CRM connect directly — no engineering ticket, no data team required."
+        },
+        {
+          "when": "Week 1–2 · Walkthrough",
+          "title": "Agent builds your golden path",
+          "body": "Once data syncs (~24h), we walk through the paid-media skill and your funded-account definition, live on your data."
+        },
+        {
+          "when": "Week 2 · Dashboards",
+          "title": "Spend & conversion go live",
+          "body": "Self-serve dashboards: spend efficiency and cost-per-funded-account across all 3,986 creatives (Google + LinkedIn), on demand."
+        },
+        {
+          "when": "Week 3–4 · Recommendations",
+          "title": "Agents monitor daily",
+          "body": "Goal-driven recommendations activate — learning your motion and sharpening every call."
+        }
+      ]
+    },
+    {
+      "type": "booking",
+      "bg": "white",
+      "icon": "calendar-check",
+      "eyebrow": "Book your walkthrough",
+      "heading": "See it on your data — *no card, no call*.",
+      "body": "Grab 30 minutes with Prasanna. We'll walk the paid-media agent on your real ad data and map the rollout — connect in week one, data syncs in about a day, dashboards in week two, agent recommendations by week four. No card, no pressure.",
+      "cal": "prasanna/petavue"
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "company": "neysa",
+  "tier": "Heavy",
+  "brandColor": "#6451A2",
+  "hideTargetLogo": true,
+  "logoNote": "No clean logo asset fetched — nav falls back to styled 'Neysa' text. Brand colors human-verified from neysa.ai: violet #6451A2 (logo/nav) primary, magenta #ED1164 (CTA) accent.",
+  "source": "authored-in-agent",
+  "narrative": "Refined agent-led template (modeled on the Plain, Avoma & GPTW reference pages). Subtle mirror: Neysa unified the AI stack; their GTM spend is the one thing still running channel-by-channel. Arc: hero+agent-card → homework (ad-intel recap) → mirror statement → capabilities → agent loop → live recommendations → dashboard comparison → calculator → defensibility → integrations → pilot → cta.",
+  "sections": [
+    {
+      "type": "hero",
+      "bg": "plain",
+      "eyebrow": "Prepared for Neysa's revenue & growth team",
+      "headline": "Agents that run your paid engine and *make the next move*.",
+      "subhead": "You run a high-velocity, two-channel program — 54 LinkedIn creatives driving event-led ABM, 21 Google search ads capturing GPU-pricing intent, and nothing on Meta by design. Agents watch both surfaces daily, catch where spend leaks or an ICP account stalls, and hand you the exact next move — with the reasoning behind it. You approve; they act.",
+      "ctaLabel": "Book a walkthrough",
+      "chips": [
+        "Connects in week one",
+        "Recommendations by week four",
+        "Grounded in verified analysis"
+      ],
+      "card": {
+        "app": "Northstar Agent",
+        "time": "6:14 AM",
+        "tag": "Channel efficiency",
+        "title": "H100 pricing ads show $0.52, $4.50 and ₹40/hr — three prices for one product",
+        "body": "Across your live Google RSAs, the H100 hourly price varies by creative. Mixed price claims split intent and dilute the conquesting message.",
+        "metrics": [
+          {
+            "v": "21",
+            "k": "Live Google ads"
+          },
+          {
+            "v": "3",
+            "k": "Price claims"
+          },
+          {
+            "v": "47d",
+            "k": "Longest run"
+          }
+        ],
+        "move": "Consolidate to one lead price on the top-converting term, and flag the disapproved creative before it burns more impressions.",
+        "impact": "Tighter cost-per-opportunity on GPU-intent search",
+        "actions": [
+          "Ask why",
+          "Approve & align"
+        ]
+      }
+    },
+    {
+      "type": "homework",
+      "bg": "white",
+      "icon": "binoculars",
+      "eyebrow": "We did our homework",
+      "heading": "We studied how Neysa runs paid *before writing a word*.",
+      "body": "Pulled from your public Google and LinkedIn ad libraries, July 2026. It's a high-velocity, deliberately India-led engine. Here's what we saw — and where an agent layer earns its keep.",
+      "channels": [
+        {
+          "platform": "Google Search",
+          "stat": "21",
+          "label": "Ads — GPU-pricing intent capture",
+          "body": "H100 from $0.52/hr, ₹40/hr, 'Made in India, for India,' SOC 2 / ISO 27001. Pure bottom-of-funnel — you buy GPU-rental intent, not awareness. No YouTube; one Business Profile local ad."
+        },
+        {
+          "platform": "LinkedIn",
+          "stat": "54",
+          "label": "Creatives — event ABM + thought leadership",
+          "body": "Every format: the 'your model works in the lab, production is a scaling nightmare' essays, Velocis product videos, and event bursts (India AI Impact Summit, MTW 2026). This is your brand engine."
+        },
+        {
+          "platform": "Meta",
+          "stat": "0",
+          "label": "Deliberately none",
+          "body": "No Facebook or Instagram ads. For an Indian enterprise + AI-native ICP reachable on Google intent and LinkedIn job targeting, that's the right call — a channel decision, not a gap."
+        }
+      ],
+      "footer": "The engine is dialed in. The gap isn't the ads — it's that the two channels run channel-by-channel: which accounts actually become pipeline, correlated across Google intent and every LinkedIn touch, and acted on daily. That's the layer Northstar Analytics owns."
+    },
+    {
+      "type": "statement",
+      "bg": "dark",
+      "icon": "stack",
+      "eyebrow": "The one thing still running tool-by-tool",
+      "heading": "You gave AI teams their entire stack, finally unified. Your go-to-market spend is the one place that isn't.",
+      "body": "Velocis exists so teams stop stitching GPUs, MLOps and deployment by hand. But your own growth engine still runs the way most do — spend in Google and LinkedIn, pipeline in the CRM, and nobody joining them daily. Northstar Analytics closes that seam for your GTM the way Velocis closed it for AI infrastructure."
+    },
+    {
+      "type": "capabilities",
+      "bg": "white",
+      "icon": "squares-four",
+      "eyebrow": "Capabilities → business impact",
+      "heading": "Built around what Neysa’s team *already owns*.",
+      "sub": "Six capabilities, each tied to a number your team is already accountable for — pipeline, spend efficiency, and where GPU-intent converts.",
+      "items": [
+        {
+          "icon": "funnel",
+          "title": "Missed-pipeline detection",
+          "body": "Flags Indian enterprise & AI-native accounts that engaged your LinkedIn ABM or Google GPU terms but never entered the CRM.",
+          "outcome": "Recovers ICP accounts already engaged"
+        },
+        {
+          "icon": "path",
+          "title": "Golden-path lookalikes",
+          "body": "Matches in-flight accounts against the sequence behind your closed-won deals — enterprise and startup motions scored separately.",
+          "outcome": "Enterprise & startup motions scored apart"
+        },
+        {
+          "icon": "chart-bar",
+          "title": "Cross-channel spend efficiency",
+          "body": "Unifies Google and LinkedIn spend, pipeline and true cost-per-opportunity — no more reconciling Campaign Manager and Google Ads by hand.",
+          "outcome": "One number across Google + LinkedIn"
+        },
+        {
+          "icon": "gauge",
+          "title": "Goal-driven pacing",
+          "body": "Watches your opportunity targets by segment and flags where you're off pace, with a specific reallocation to fix it.",
+          "outcome": "Flags off-pace segments with the fix"
+        },
+        {
+          "icon": "shield-warning",
+          "title": "Spend-integrity watch",
+          "body": "Catches disapproved creatives, pacing drift, and price-claim mismatches (like $0.52 vs $4.50/hr) the moment they occur.",
+          "outcome": "Catches price-claim & pacing drift fast"
+        },
+        {
+          "icon": "arrows-clockwise",
+          "title": "Agentic dashboards",
+          "body": "Dashboards the agent rebuilds as your definitions change — including when the GPU line-up or pricing shifts.",
+          "outcome": "Rebuilds as your GPU line-up shifts"
+        }
+      ]
+    },
+    {
+      "type": "agentLoop",
+      "bg": "tint",
+      "icon": "target",
+      "eyebrow": "How the agents work",
+      "heading": "Point the agents at a goal. Agents run the rest.",
+      "body": "Set a goal in your own terms — cost-per-opportunity on GPU-intent search, enterprise pipeline by segment — and the agent works out what to watch and what to do, on your numbers.",
+      "goals": [
+        {
+          "text": "Cut cost-per-opportunity on GPU-pricing search 25% — without dropping trial volume.",
+          "result": "Agents watch every RSA daily and move budget toward the terms that produce opportunities, not just clicks."
+        },
+        {
+          "text": "Get event-led LinkedIn ABM credited and converting — route every ICP account it warms.",
+          "result": "Agents learn the path your closed-won accounts took, catch the ones that stall, and hand them to sales before they cool."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Monitor",
+          "body": "Track every Google and LinkedIn campaign and CRM event daily — against your goal and your own baseline, not a canned benchmark."
+        },
+        {
+          "title": "Verify",
+          "body": "Every number is checked against source data before it reaches you — grounded analysis, not a guess."
+        },
+        {
+          "title": "Recommend",
+          "body": "When a sustained pattern bears on the goal, surface the move in Slack: evidence, cause, action, and what it's worth."
+        },
+        {
+          "title": "Act",
+          "body": "Approve and the agent acts — shifting budget, adding negatives, routing the account. Nothing fires until you say so."
+        },
+        {
+          "title": "Learn",
+          "body": "Every call you make is graded into memory, so next month's recommendation fits your motion better than this one."
+        }
+      ]
+    },
+    {
+      "type": "recommendations",
+      "bg": "white",
+      "icon": "lightning",
+      "eyebrow": "Two engines, running daily",
+      "heading": "Always know your next move.",
+      "body": "One engine watches paid-media efficiency; the other watches ICP accounts against your golden path. Two live examples, built for Neysa.",
+      "cards": [
+        {
+          "app": "Northstar Agent",
+          "time": "6:02 AM",
+          "tag": "Campaign budget",
+          "title": "GPU-rental terms convert 3× cheaper than generic 'AI infrastructure' — but spend hasn't moved",
+          "body": "Over 21 days, generic 'AI infrastructure' terms drove volume but few opportunities, while 'H100 rent / price' terms converted at a fraction of the cost. The budget split between them hasn't changed in 90 days.",
+          "metrics": [
+            {
+              "v": "3.1×",
+              "k": "Cost-per-opp gap"
+            },
+            {
+              "v": "₹40/hr",
+              "k": "Lead price hook"
+            },
+            {
+              "v": "90d",
+              "k": "Since last shift"
+            }
+          ],
+          "move": "Shift 25% of generic-term budget to the high-intent H100-pricing terms, add the zero-opp terms as exact-match negatives, and re-check in 14 days.",
+          "impact": "Lower cost-per-opportunity without adding spend",
+          "actions": [
+            "Ask why",
+            "Shift budget"
+          ]
+        },
+        {
+          "app": "Northstar Agent",
+          "time": "6:04 AM",
+          "tag": "Audience re-targeting",
+          "title": "19 enterprise ICP accounts engaged your LinkedIn ABM twice — none are in the CRM",
+          "body": "Over 21 days, 19 Indian BFSI & AI-native accounts matching your named-account profile hit 2+ high-intent touches on LinkedIn and viewed pricing — but never entered Salesforce. This is the pattern behind 4 of your last 6 enterprise closed-won.",
+          "metrics": [
+            {
+              "v": "19",
+              "k": "Engaged accts"
+            },
+            {
+              "v": "92%",
+              "k": "Golden-path match"
+            },
+            {
+              "v": "₹1.0Cr",
+              "k": "Recoverable"
+            }
+          ],
+          "move": "Route the 9 enterprise accounts to sales this week as a named list, load all 19 into the LinkedIn ABM audience, and suppress them from cold outbound.",
+          "impact": "Recoverable enterprise pipeline this quarter",
+          "actions": [
+            "Ask why",
+            "Route to sales"
+          ]
+        }
+      ],
+      "note": "Illustrative — calibrated to Neysa's paid motion. On a pilot the numbers are your own, every one traceable to the record behind it."
+    },
+    {
+      "type": "comparison",
+      "bg": "tint",
+      "icon": "scales",
+      "eyebrow": "Why not just a dashboard",
+      "heading": "A dashboard reports. Northstar Analytics *decides — and acts*.",
+      "sub": "Six things a stack of dashboards can’t do across two channels — that the agents do daily.",
+      "rows": [
+        {
+          "capability": "Google + LinkedIn in one revenue picture",
+          "dashboards": "Campaign Manager and Google Ads each report their own slice",
+          "sender": "Both channels stitched to CRM opportunities, watched daily"
+        },
+        {
+          "capability": "True cost per opportunity",
+          "dashboards": "Clicks and leads per tab, reconciled by hand",
+          "sender": "Cost-per-opp by term and segment — no manual joins"
+        },
+        {
+          "capability": "GPU-intent vs generic terms",
+          "dashboards": "Blended search numbers hide which term converts",
+          "sender": "Each term measured on opportunities, not just clicks"
+        },
+        {
+          "capability": "The next move, not just a metric",
+          "dashboards": "Reports the number; you decide what to do",
+          "sender": "The action in Slack — evidence, cause, what it’s worth"
+        },
+        {
+          "capability": "Numbers you can put in front of the board",
+          "dashboards": "Someone reconciles tabs before every review",
+          "sender": "Every number verified on your definitions, with lineage"
+        },
+        {
+          "capability": "Acts on approval",
+          "dashboards": "Nothing acts — export and hand off",
+          "sender": "Approve and the agent shifts budget or routes the account"
+        }
+      ]
+    },
+    {
+      "type": "defensibility",
+      "bg": "white",
+      "icon": "shield-check",
+      "eyebrow": "Recommendations you can defend",
+      "heading": "No infrastructure guesswork. No analysis guesswork either.",
+      "body": "'Indian enterprises can't afford infrastructure guesswork' is your framing. We hold our recommendations to the same bar — every one shows its work, so you can put the number in front of your board or Blackstone without taking it on faith.",
+      "points": [
+        {
+          "icon": "tree-structure",
+          "title": "A methodology trail",
+          "body": "Every metric carries full lineage, raw data to summary, on your definitions — trial, qualified, ICP, your attribution windows. Safe for the board."
+        },
+        {
+          "icon": "chats-circle",
+          "title": "'Ask why,' any time",
+          "body": "Reply to any recommendation in Slack for the exact analysis, why it fired, and the leading indicator to watch. No black box."
+        },
+        {
+          "icon": "hand",
+          "title": "You approve every move",
+          "body": "Approve, hold, or ask why before anything acts. Tell an agent to wait or change course and it adapts the next run — no re-config."
+        }
+      ]
+    },
+    {
+      "type": "integrations",
+      "bg": "white",
+      "icon": "plugs-connected",
+      "eyebrow": "Connects natively to your stack",
+      "heading": "Your two channels first. The rest when you need it.",
+      "body": "Northstar Analytics plugs into where Neysa already runs — no data team required. Every metric stays traceable to the record behind it, and data handling is documented for your security review.",
+      "groups": [
+        {
+          "label": "Ad platforms",
+          "items": [
+            {
+              "name": "Google Ads",
+              "status": "live"
+            },
+            {
+              "name": "LinkedIn Ads",
+              "status": "live"
+            },
+            {
+              "name": "Meta Ads",
+              "status": "ready"
+            }
+          ]
+        },
+        {
+          "label": "CRM & first-party",
+          "items": [
+            {
+              "name": "Salesforce"
+            },
+            {
+              "name": "HubSpot"
+            },
+            {
+              "name": "GA4"
+            },
+            {
+              "name": "Website pixel"
+            }
+          ]
+        },
+        {
+          "label": "Rest of the stack, via Fivetran",
+          "items": [
+            {
+              "name": "Reddit Ads"
+            },
+            {
+              "name": "X Ads"
+            },
+            {
+              "name": "Bing Ads"
+            },
+            {
+              "name": "6sense"
+            },
+            {
+              "name": "ZoomInfo"
+            },
+            {
+              "name": "+ 300 more sources"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "pilot",
+      "bg": "dark",
+      "icon": "rocket-launch",
+      "eyebrow": "The four-week pilot",
+      "heading": "Connected in week one. Recommending by week four.",
+      "body": "A structured pilot with a clear milestone each week. You see the depth before you commit — no card, no call to start.",
+      "steps": [
+        {
+          "when": "Week 1 · Connection",
+          "title": "Connect Google, LinkedIn & CRM",
+          "body": "LinkedIn Ads and Google Ads connect directly, then your CRM — no engineering ticket, no data team required."
+        },
+        {
+          "when": "Week 1–2 · Walkthrough",
+          "title": "Agent builds your golden path",
+          "body": "Once data syncs (~24h), we walk through the paid-media skill and funnel definition, live on your data."
+        },
+        {
+          "when": "Week 2 · Dashboards",
+          "title": "Spend & attribution go live",
+          "body": "Self-serve dashboards: spend efficiency and cost-per-opportunity across Google and LinkedIn, on demand."
+        },
+        {
+          "when": "Week 3–4 · Recommendations",
+          "title": "Agents monitor daily",
+          "body": "Goal-driven recommendations activate — learning your motion and sharpening every call."
+        }
+      ]
+    },
+    {
+      "type": "booking",
+      "bg": "white",
+      "icon": "calendar-check",
+      "eyebrow": "Book your walkthrough",
+      "heading": "See it on your data — *no card, no call*.",
+      "body": "Grab 30 minutes with the team. We’ll walk the paid-media agent on your real ad data and map the rollout — connect in week one, data syncs in about a day, dashboards in week two, agent recommendations by week four. No card, no pressure.",
+      "cal": "your-cal-username/intro"
+    }
+  ]
+}

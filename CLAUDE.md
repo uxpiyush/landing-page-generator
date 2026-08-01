@@ -1,0 +1,46 @@
+# Agent-orchestrated demand gen (Claude Code)
+
+A demo of **scalable demand gen orchestrated inside Claude Code**. Given a company (or investor / LinkedIn profile), Claude qualifies it on real ad strategy + ICP fit and **composes a uniquely-structured** landing page (sender → target) as a standalone HTML file in `output/`.
+
+**Claude is the orchestrator.** Scripts do structured extraction; Claude does the judgment: sourcing, brand verification, ICP fit, qualification, **narrative/structure design**, copywriting, and visual QA. There is **no Anthropic API, no deployment** — pages are authored in-agent, output is local HTML. Positioning source of truth: **`context.md`** (the GTM analytics primer shipped here). A private positioning doc, if you keep one, goes in `context.private.md` — gitignored, and preferred when present.
+
+**Ad data comes from SearchApi.io** (structured JSON for LinkedIn + Meta + Google ad libraries) — this replaced the Playwright scrapers as the primary path (validated against hand-built ad reports for plain.com + neysa.ai: counts, entities, and copy matched). The Playwright scrapers (`scrape:linkedin`, `scrape:meta`) are kept as a **fallback** — chiefly for LinkedIn *collision names* (see rules). One gap: Google archives many search ads as **rendered images**, so the API can't read their copy — Claude reads it visually from the Ads Transparency Center via Chrome and folds it in with `merge:vision` (the "hybrid Google copy" step). `SEARCHAPI_KEY` lives in `.env`.
+
+## Run it
+
+`/demand-gen <company | investor | LinkedIn profile URL>` — the full workflow. See `.claude/commands/demand-gen.md`.
+
+## Scripts (structured tasks only)
+
+| Script | Does | Output |
+|---|---|---|
+| `npm run fetch:brand -- --company <slug> --domain <d>` | Brandfetch: logo, colors, fonts, firmographics | `data/<slug>.brand.json` |
+| `npm run fetch:linkedin -- --company <slug> --advertiser "<Name[,Founder]>" [--resolve]` | LinkedIn Ad Library via SearchApi; `--resolve` lists advertisers to confirm identity, then filters to the exact name(s) | `data/<slug>.ads.json` |
+| `npm run fetch:meta -- --company <slug> [--query "<Name>" --resolve \| --page-id <id>]` | Meta Ad Library via SearchApi; resolve to a `page_id`, then scrape | `data/<slug>.meta.ads.json` |
+| `npm run fetch:google -- --company <slug> --domain <d>` | Google Ads Transparency via SearchApi; resolves `domain`→`advertiser_id` (fuller set) + per-creative details (regions, copy where text-based) | `data/<slug>.google.ads.json` |
+| `npm run merge:vision -- --company <slug> --file data/<slug>.google.vision.json` | Folds Chrome-vision-read Google copy into image-archived creatives | updates `data/<slug>.google.ads.json` |
+| `npm run score -- --company <slug>` | Tier/qualification, **aggregated across all platform files** | `data/<slug>.profile.json` |
+| `npm run render -- --company <slug> [--shot]` | Composes the page spec into HTML | `output/<slug>.html` |
+
+**Fallback (Playwright, pre-SearchApi):** `npm run scrape:linkedin -- --url "…?companyIds=<ID>" --headless` and `npm run scrape:meta -- --page-id <id> --headless`. Use `scrape:linkedin` when a LinkedIn name is a common word (SearchApi has no company-ID filter, so a name search paginates all namesakes — the native `companyIds=` URL is cleaner). See `src/fallback/searchapi-probe.ts` to dump raw payloads for comparison.
+
+**`render.ts` is a section composer, not a template.** It reads the **page spec** Claude authors — `data/<slug>.page.json`, an ordered list of typed sections — so structure/narrative vary per company. The **refined, agent-led library** (worked example: `examples/attio/attio.page.json`): `hero(+agent-card+chips) · homework · statement(the subtle mirror) · capabilities · agentLoop · recommendations · comparison · defensibility · integrations · pilot · booking(or cta)` — **`calculator` is now OPTIONAL** (dropped from the default arc; add only when a quantified beat earns its place). The **preferred closer is `booking`** — a live **cal.com calendar embedded inline** in the page (slug from the section's `cal`, else `CAL_LINK` in `.env`; prefer a full event slug e.g. `jane/intro` over a bare username), themed with the page brand color; `cta` (a plain button block) is the fallback. Legacy `insight · problem · opportunity · splitFeature · productPreview` still render. Default arc + tone rules live in `.claude/commands/demand-gen.md` Step 4. **Design system = the fixed design language, modeled on the hand-crafted `Avoma` + `Plain` references:** a **LIGHT-FIRST rhythm** (the page opens light and closes light; `dark` for **at most ~2 sections, spaced far apart**, as emphasis — typically the mirror statement + the pilot band — never the hero; everything else white/tint), **heavy Manrope 800 display headlines + Manrope body/UI + Manrope 700 uppercase eyebrows, with Instrument Serif as an ITALIC ACCENT only** (emphasis words in headlines, marked `*like this*` in the spec, + the statement pull-quote), a navy base, generous radii, refined shadows, `fadeUp` scroll motion, Phosphor icons. **Dual accent:** the target brand color (from the verified `brandColor`, via `deriveBrand()`) drives the **primary** accent — buttons, eyebrows, **numbered capability cards + accent outcome pills**, integration LIVE pills, the comparison table; the sender's own accent (from `config/sender.json`) is the **secondary** accent for the "sender voice" (agent-card avatar/app name + the recommendation band). Rich agent cards ("What I found / Why it matters"), and a 3-column comparison **table** (Capability | Dashboards | <sender> agents). The **typeface is always the sender's, never the target brand's font**.
+
+## Hard-won rules (encoded in the command)
+
+- **Identity resolution is the #1 trap.** Names collide (two real "Primer" companies; searching "Plain" surfaces ~50 advertisers — PlainID, Plains State Bank, White Plains Hospital…). Resolve per engine, never trust a raw name: **Google** → `domain` auto-resolves to the verified legal entity, then use its `advertiser_id` (fuller than the domain query — Neysa returned 21 by advertiser vs 13 by domain); **Meta** → confirm the `page_id` (`--resolve`), never keyword; **LinkedIn** → SearchApi has no ID filter, so `--resolve` to see the advertiser breakdown, then pass the exact name(s) to `--advertiser` (founder Thought-Leader-Ad names are legitimately the company's). For common-word LinkedIn names, prefer the Playwright fallback with `companyIds=<ID>`.
+- **Trust nothing Brandfetch labels.** It has mislabeled color *roles*, color *ordering*, and logo *themes*. **Verify the brand color from the company's real site** (screenshot the homepage) and set it as `brandColor` in the page spec; look at the logo to confirm it's visible.
+- **Compose the arc from the business** — don't default to hero→metrics→features→cta. A measurement vendor gets an opportunity-led arc, a workflow company a process-bottleneck problem arc, etc.
+- **Lead with the target's real ad themes**, read from their ad copy — the scoring keyword-buckets misfire across domains.
+- **If it's not confirmed, don't include it** — no fabricated trust logos (real logos only, in `assets/trust/`), no invented product metrics.
+
+## Layout
+
+- `src/` — SearchApi fetchers (`searchapi` client, `fetch-linkedin`, `fetch-meta`, `fetch-google`, `merge-vision-copy`) · `fetch-brand` · `score` · `render` · `types.ts` · Playwright fallbacks (`scrape-linkedin`, `scrape-meta`) · `searchapi-probe` (raw-payload dumper)
+- `data/` — intermediate artifacts (ads, brand, profile, step0, **page specs**, previews). Gitignored — this is working scratch
+- `output/` — final landing pages. Gitignored
+- `examples/` — tracked, sanitized reference material: `specs/` (five real page specs), `evidence/` (scoring artifacts), `pages/` (two rendered pages)
+- `docs/` — `CASE-STUDY.md` (the full walkthrough) + screenshots
+- `assets/` — the sender's own brand (logos, favicon) — **replace these with yours**; `assets/trust/` — real customer logos (empty until confirmed)
+- `context.md` — GTM analytics primer the agent writes from. `context.private.md` — optional private positioning/battlecard (gitignored, preferred when present)
+- `.env` — `BRANDFETCH_API_KEY`, `SEARCHAPI_KEY`, `CAL_LINK` (gitignored; see `.env.example`)
